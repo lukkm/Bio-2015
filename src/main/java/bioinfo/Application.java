@@ -13,6 +13,9 @@ public class Application {
 					}
 					break;
 				case 2:
+					if (args.length >= 3) {
+						BLASTQuery.transform(args[1], args[2]);
+					}
 					break;
 				case 3:
 					break;

@@ -11,7 +11,7 @@ import org.biojava.nbio.ws.alignment.qblast.*;
 
 public class BLASTQuery {
 
-	public static void main(String[] args) {
+	public static void transform(String fasta, String output) {
 		NCBIQBlastService service = new NCBIQBlastService();
 
 		NCBIQBlastAlignmentProperties props = new NCBIQBlastAlignmentProperties();
@@ -24,8 +24,7 @@ public class BLASTQuery {
 		FileWriter writer = null;
 		BufferedReader reader = null;
 		
-		String filename = "target/BLASTOutput.xml";
-		String accession = "NM_000518.4";
+		String accession = "NM_000518.4"; //TODO change to fasta file
 		
 		try {
 			rid = service.sendAlignmentRequest(accession, props);
@@ -37,7 +36,7 @@ public class BLASTQuery {
 			InputStream in = service.getAlignmentResults(rid, outputProps);
 			reader = new BufferedReader(new InputStreamReader(in));
 
-			File f = new File(filename);
+			File f = new File(output);
 			System.out.println("Guardando resultados a: " + f.getAbsolutePath());
 			writer = new FileWriter(f);
 
