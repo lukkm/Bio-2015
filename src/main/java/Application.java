@@ -12,7 +12,7 @@ public class Application {
 
 	public static void main(String[] args) {
 		BufferedReader br = null;
-		 
+		
 	    try {
 	      // Create a buffered reader to read the sequence file specified by args[0]
 	      br = new BufferedReader(new FileReader(args[0]));
