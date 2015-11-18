@@ -4,4 +4,16 @@
   <artifactId>tpe-2015</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Bioinformatics Project 2015</name>
+  <dependencies>
+  	<dependency>
+	    <groupId>org.biojava</groupId>
+	    <artifactId>biojava3-core</artifactId>
+	    <version>3.0</version>
+   	</dependency>
+   	<dependency>
+		<groupId>org.biojava</groupId>
+		<artifactId>core</artifactId>
+		<version>1.9.2</version>
+	</dependency>
+  </dependencies>
 </project>
