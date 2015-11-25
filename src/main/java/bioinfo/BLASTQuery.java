@@ -10,52 +10,53 @@ import java.util.Map;
 
 public class BLASTQuery {
 
-	public static void transform(String fasta, String output) throws IOException {
-		NCBIQBlastService service = new NCBIQBlastService();
+    public static void transform(String fasta, String output) throws IOException {
+        NCBIQBlastService service = new NCBIQBlastService();
 
-		NCBIQBlastAlignmentProperties props = new NCBIQBlastAlignmentProperties();
-		props.setBlastProgram(BlastProgramEnum.blastx);
-		props.setBlastDatabase("nr");
+        NCBIQBlastAlignmentProperties props = new NCBIQBlastAlignmentProperties();
+        props.setBlastProgram(BlastProgramEnum.blastp);
+        props.setBlastDatabase("nr");
 
-		NCBIQBlastOutputProperties outputProps = new NCBIQBlastOutputProperties();
-		outputProps.setOutputFormat(BlastOutputFormatEnum.Text);
 
-		String rid = null;
-		FileWriter writer = null;
-		BufferedReader reader = null;
+        NCBIQBlastOutputProperties outputProps = new NCBIQBlastOutputProperties();
+        outputProps.setOutputFormat(BlastOutputFormatEnum.Text);
 
-		File file = new File(fasta);
+        String rid = null;
+        FileWriter writer = null;
+        BufferedReader reader = null;
 
-		Map<String, ProteinSequence> proteinSequences = FastaReaderHelper.readFastaProteinSequence(file);
-		for (ProteinSequence seq : proteinSequences.values()) {
-			try {
-				rid = service.sendAlignmentRequest(seq.getSequenceAsString(), props);
+        File file = new File(fasta);
 
-				while (!service.isReady(rid)) {
-					System.out.println("Esperando 5 segundos");
-					Thread.sleep(5000);
-				}
+        Map<String, ProteinSequence> proteinSequences = FastaReaderHelper.readFastaProteinSequence(file);
+        for (ProteinSequence seq : proteinSequences.values()) {
+            try {
+                rid = service.sendAlignmentRequest(seq.getSequenceAsString(), props);
 
-				InputStream in = service.getAlignmentResults(rid, outputProps);
-				reader = new BufferedReader(new InputStreamReader(in));
+                while (!service.isReady(rid)) {
+                    System.out.println("Esperando 5 segundos");
+                    Thread.sleep(5000);
+                }
 
-				File f = new File(seq.getAccession().toString().split(" ")[0] + "-" + output + ".out");
-				System.out.println("Guardando resultados a: " + f.getAbsolutePath());
-				writer = new FileWriter(f);
+                InputStream in = service.getAlignmentResults(rid, outputProps);
+                reader = new BufferedReader(new InputStreamReader(in));
+                File f = new File(output + "-" + seq.getAccession().toString().split(" ")[0]  + ".out");
+                System.out.println("Guardando resultados a: " + f.getAbsolutePath());
+                writer = new FileWriter(f);
 
-				String line;
-				while ((line = reader.readLine()) != null) {
-					writer.write(line + System.getProperty("line.separator"));
-				}
-			} catch (Exception e) {
-				System.out.println(e.getMessage());
-				e.printStackTrace();
-			} finally {
-				IOUtils.close(writer);
-				IOUtils.close(reader);
-				service.sendDeleteRequest(rid);
-			}
-		}
+                String line;
+                while ((line = reader.readLine()) != null) {
+                    writer.write(line + System.getProperty("line.separator"));
+                }
+                writer.close();
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+                e.printStackTrace();
+            } finally {
+                IOUtils.close(writer);
+                IOUtils.close(reader);
+                service.sendDeleteRequest(rid);
+            }
+        }
 
-	}
+    }
 }

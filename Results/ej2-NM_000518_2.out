@@ -1,0 +1,156 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.3.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 5ARCXK5D015
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           77,306,371 sequences; 28,104,191,422 total letters
+Query= 
+Length=208
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+ref|XP_012420376.1|  PREDICTED: hemoglobin subunit beta isofor...  71.6    3e-12
+gb|ACE80932.1|  mutant beta-globin [Homo sapiens]                  69.7    1e-11
+gb|AAA35952.1|  beta-globin [Homo sapiens]                         68.9    3e-11
+gb|EFB18431.1|  hypothetical protein PANDA_015770 [Ailuropoda ...  58.9    1e-07
+ref|XP_004090697.2|  PREDICTED: hemoglobin subunit beta isofor...  40.8    0.20 
+ref|XP_012359140.1|  PREDICTED: hemoglobin subunit beta isofor...  40.8    0.32 
+
+ALIGNMENTS
+>ref|XP_012420376.1| PREDICTED: hemoglobin subunit beta isoform X1 [Odobenus rosmarus 
+divergens]
+Length=156
+
+ Score = 71.6 bits (174),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 34/45 (76%), Positives = 36/45 (80%), Gaps = 0/45 (0%)
+
+Query  122  APGQRAGLCAGPSLWQRIHPTSAGCLSESGGWCG*CPGPQVSLSS  166
+             PGQRAG+CAG  LWQRIHP+ AGCLSE GGWCG CPG QV L S
+Sbjct  107  TPGQRAGVCAGSPLWQRIHPSGAGCLSEGGGWCGQCPGSQVPLRS  151
+
+
+>gb|ACE80932.1| mutant beta-globin [Homo sapiens]
+Length=139
+
+ Score = 69.7 bits (169),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 32/32 (100%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+
+Query  124  GQRAGLCAGPSLWQRIHPTSAGCLSESGGWCG  155
+            GQRAGLCAGPSLWQRIHPTSAGCLSESGGWCG
+Sbjct  108  GQRAGLCAGPSLWQRIHPTSAGCLSESGGWCG  139
+
+
+>gb|AAA35952.1| beta-globin [Homo sapiens]
+Length=175
+
+ Score = 68.9 bits (167),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 32/34 (94%), Positives = 32/34 (94%), Gaps = 0/34 (0%)
+
+Query  122  APGQRAGLCAGPSLWQRIHPTSAGCLSESGGWCG  155
+             PGQRAGLCAGPSLWQ IHPTSAGCLSESGGWCG
+Sbjct  142  TPGQRAGLCAGPSLWQIIHPTSAGCLSESGGWCG  175
+
+
+>gb|EFB18431.1| hypothetical protein PANDA_015770, partial [Ailuropoda melanoleuca]
+Length=171
+
+ Score = 58.9 bits (141),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 26/34 (76%), Positives = 29/34 (85%), Gaps = 0/34 (0%)
+
+Query  122  APGQRAGLCAGPSLWQRIHPTSAGCLSESGGWCG  155
+            APGQRAG+CAG  LWQ +HP+ AGCLSE GGWCG
+Sbjct  138  APGQRAGVCAGSPLWQGVHPSGAGCLSEGGGWCG  171
+
+
+>ref|XP_004090697.2| PREDICTED: hemoglobin subunit beta isoform X2 [Nomascus leucogenys]
+ ref|XP_012359151.1| PREDICTED: hemoglobin subunit beta isoform X2 [Nomascus leucogenys]
+Length=139
+
+ Score = 40.8 bits (94),  Expect = 0.20, Method: Compositional matrix adjust.
+ Identities = 17/19 (89%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  137  QRIHPTSAGCLSESGGWCG  155
+            +RIHP SAGCLSESGGWCG
+Sbjct  121  KRIHPASAGCLSESGGWCG  139
+
+
+>ref|XP_012359140.1| PREDICTED: hemoglobin subunit beta isoform X1 [Nomascus leucogenys]
+Length=161
+
+ Score = 40.8 bits (94),  Expect = 0.32, Method: Compositional matrix adjust.
+ Identities = 17/19 (89%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  137  QRIHPTSAGCLSESGGWCG  155
+            +RIHP SAGCLSESGGWCG
+Sbjct  143  KRIHPASAGCLSESGGWCG  161
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Nov 21, 2015  1:45 AM
+  Number of letters in database: -1,960,579,646
+  Number of sequences in database:  77,306,371
+
+Lambda      K        H
+   0.350    0.157    0.638 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 77306371
+Number of Hits to DB: 547581781
+Number of extensions: 20137833
+Number of successful extensions: 38096
+Number of sequences better than 100: 1
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 38094
+Number of HSP's successfully gapped: 1
+Length of query: 208
+Length of database: 28104191422
+Length adjustment: 144
+Effective length of query: 64
+Effective length of database: 16972073998
+Effective search space: 1086212735872
+Effective search space used: 1086212735872
+T: 11
+A: 40
+X1: 14 (7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 38 (19.2 bits)
+S2: 75 (33.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+
+
+

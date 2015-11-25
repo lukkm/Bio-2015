@@ -1,0 +1,79 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.3.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 5AS0TJ2G015
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           77,306,371 sequences; 28,104,191,422 total letters
+
+Query= 
+Length=208
+
+
+<b>No significant similarity found.</b> For reasons why, <A HREF = "Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=FAQ"><b>click here</A>.</b><br><br>
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Nov 21, 2015  1:45 AM
+  Number of letters in database: 28,104,191,422
+  Number of sequences in database:  77,306,371
+
+Lambda      K        H
+   0.359    0.154    0.570 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 77306371
+Number of Hits to DB: 474879344
+Number of extensions: 15890598
+Number of successful extensions: 55875
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 55861
+Number of HSP's successfully gapped: 4
+Length of query: 208
+Length of database: 28104191422
+Length adjustment: 144
+Effective length of query: 64
+Effective length of database: 16972073998
+Effective search space: 1086212735872
+Effective search space used: 1086212735872
+T: 11
+A: 40
+X1: 14 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 37 (18.9 bits)
+S2: 75 (33.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+
+
+

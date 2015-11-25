@@ -1,0 +1,3084 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.3.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 5AT4975M01R
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           77,306,371 sequences; 28,104,191,422 total letters
+Query= 
+Length=208
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+ref|NP_000509.1|  hemoglobin subunit beta [Homo sapiens]           301     5e-101
+gb|AAX29557.1|  hemoglobin beta [synthetic construct]              301     5e-101
+gb|AAX37051.1|  hemoglobin beta [synthetic construct]              301     6e-101
+sp|P02024.2|HBB_GORGO  RecName: Full=Hemoglobin subunit beta; ...  300     2e-100
+gb|AAN84548.1|  beta globin chain variant [Homo sapiens]           299     2e-100
+gb|AAZ39780.1|  beta globin [Homo sapiens]                         299     2e-100
+gb|ACU56984.1|  beta-globin [Homo sapiens]                         299     2e-100
+gb|AKI70610.1|  HBB [synthetic construct]                          299     2e-100
+gb|AAD19696.1|  hemoglobin beta chain [Homo sapiens]               299     2e-100
+gb|AKI70611.1|  HBB [synthetic construct]                          298     4e-100
+pdb|1COH|B  Chain B, Structure Of Haemoglobin In The Deoxy Qua...  298     6e-100
+gb|AKI70609.1|  HBB [synthetic construct]                          298     6e-100
+gb|AKI70608.1|  HBB [synthetic construct]                          298     1e-99 
+gb|AAF00489.1|AF181989_1  hemoglobin beta subunit variant [Hom...  298     1e-99 
+pdb|4MQI|B  Chain B, Structure Of Aquomet Hemoglobin Bristol-a...  297     1e-99 
+pdb|1DXU|B  Chain B, High-Resolution X-Ray Study Of Deoxy Reco...  297     1e-99 
+gb|AAL68978.1|AF083883_1  mutant beta-globin [Homo sapiens]        297     1e-99 
+pdb|2YRS|B  Chain B, Human Hemoglobin D Los Angeles: Crystal S...  297     2e-99 
+pdb|1HDB|B  Chain B, Analysis Of The Crystal Structure, Molecu...  297     2e-99 
+pdb|5E29|B  Chain B, Crystal Structure Of Deoxygenated Hemoglo...  296     2e-99 
+pdb|1NQP|B  Chain B, Crystal Structure Of Human Hemoglobin E A...  296     2e-99 
+pdb|1K1K|B  Chain B, Structure Of Mutant Human Carbonmonoxyhem...  296     2e-99 
+pdb|3KMF|C  Chain C, Room Temperature Time-Of-Flight Neutron D...  296     2e-99 
+pdb|1DXV|B  Chain B, High-resolution X-ray Study Of Deoxy Reco...  296     2e-99 
+gb|AAN11320.1|  hemoglobin beta chain variant Hb S-Wake [Homo ...  296     3e-99 
+pdb|1O1O|B  Chain B, Deoxy Hemoglobin (A,C:v1m,V62l; B,D:v1m,V...  296     4e-99 
+emb|CAA23759.1|  unnamed protein product [Homo sapiens]            296     4e-99 
+ref|XP_002822173.1|  PREDICTED: hemoglobin subunit beta isofor...  296     4e-99 
+pdb|1Y85|B  Chain B, T-To-T(High) Quaternary Transitions In Hu...  296     5e-99 
+pdb|1YE2|B  Chain B, T-To-T(High) Quaternary Transitions In Hu...  296     5e-99 
+pdb|1YE0|B  Chain B, T-To-T(High) Quaternary Transitions In Hu...  296     5e-99 
+pdb|1HBS|B  Chain B, Refined Crystal Structure Of Deoxyhemoglo...  295     8e-99 
+pdb|1BUW|B  Chain B, Crystal Structure Of S-Nitroso-Nitrosyl H...  295     8e-99 
+pdb|1ABY|B  Chain B, Cyanomet Rhb1.1 (Recombinant Hemoglobin)      295     8e-99 
+pdb|1Y5F|B  Chain B, T-To-T(High) Quaternary Transitions In Hu...  295     8e-99 
+pdb|1YIH|B  Chain B, T-To-T(High) Quaternary Transitions In Hu...  295     1e-98 
+pdb|1YEN|B  Chain B, T-To-T(High) Quaternary Transitions In Hu...  295     1e-98 
+pdb|1GBV|B  Chain B, (Alpha-Oxy, Beta-(C112g)deoxy) T-State Hu...  295     1e-98 
+pdb|1Y7Z|B  Chain B, T-To-T(High) Quaternary Transitions In Hu...  295     1e-98 
+pdb|1Y7G|B  Chain B, T-To-T(High) Quaternary Transitions In Hu...  295     1e-98 
+pdb|6HBW|B  Chain B, Crystal Structure Of Deoxy-human Hemoglob...  295     1e-98 
+pdb|3QJC|B  Chain B, Human Hemoglobin A Mutant Beta H63l Carbo...  295     1e-98 
+pdb|1O1I|B  Chain B, Cyanomet Hemoglobin (a-gly-c:v1m,l29f,h58...  295     1e-98 
+pdb|2HHE|B  Chain B, Oxygen Affinity Modulation By The N-Termi...  295     1e-98 
+pdb|1Y4Q|B  Chain B, T-To-T(High) Quaternary Transitions In Hu...  295     1e-98 
+pdb|1Y4R|B  Chain B, T-To-T(High) Quaternary Transitions In Hu...  295     1e-98 
+pdb|1Y5K|B  Chain B, T-to-t(high) Quaternary Transitions In Hu...  295     1e-98 
+pdb|1YGF|B  Chain B, T-To-T(High) Quaternary Transitions In Hu...  295     1e-98 
+gb|AAK29639.1|AF349114_1  beta globin chain variant [Homo sapi...  295     1e-98 
+pdb|1Y4V|B  Chain B, T-To-T(High) Quaternary Transitions In Hu...  295     1e-98 
+pdb|3NL7|B  Chain B, Human Hemoglobin A Mutant Beta H63w Carbo...  295     1e-98 
+pdb|1CMY|B  Chain B, The Mutation Beta99 Asp-Tyr Stabilizes Y-...  295     1e-98 
+pdb|1YE1|B  Chain B, T-To-T(High) Quaternary Transitions In Hu...  295     1e-98 
+pdb|1A00|B  Chain B, Hemoglobin (Val Beta1 Met, Trp Beta37 Tyr...  295     1e-98 
+pdb|1O1K|B  Chain B, Deoxy Hemoglobin (A,C:v1m; B,D:v1m,V67w)      294     2e-98 
+gb|ACD39349.1|  hemoglobin beta chain variant [Homo sapiens]       294     2e-98 
+pdb|1HBA|B  Chain B, High-Resolution X-Ray Study Of Deoxyhemog...  294     2e-98 
+pdb|1Y2Z|B  Chain B, T-To-T(High) Quaternary Transitions In Hu...  294     2e-98 
+pdb|1Y7D|B  Chain B, T-to-t(high) Quaternary Transitions In Hu...  294     2e-98 
+pdb|1Y83|B  Chain B, T-To-T(High) Quaternary Transitions In Hu...  293     4e-98 
+sp|P02025.1|HBB_HYLLA  RecName: Full=Hemoglobin subunit beta; ...  293     4e-98 
+prf||0404170B  hemoglobin beta                                     293     5e-98 
+pdb|1GBU|B  Chain B, Deoxy (Beta-(C93a,C112g)) Human Hemoglobin    293     5e-98 
+pdb|1A01|B  Chain B, Hemoglobin (Val Beta1 Met, Trp Beta37 Ala...  293     6e-98 
+pdb|1QI8|B  Chain B, Deoxygenated Structure Of A Distal Pocket...  293     6e-98 
+pdb|1YEU|B  Chain B, T-To-T(High) Quaternary Transitions In Hu...  293     7e-98 
+pdb|1RQA|B  Chain B, Crystallographic Analysis Of The Interact...  293     7e-98 
+gb|AAR96398.1|  hemoglobin beta [Homo sapiens]                     293     9e-98 
+pdb|1YG5|B  Chain B, T-To-T(High) Quaternary Transitions In Hu...  293     9e-98 
+pdb|1O1P|B  Chain B, Deoxy Hemoglobin (A-Gly-C:v1m; B,D:v1m,C9...  292     1e-97 
+sp|P02032.1|HBB_SEMEN  RecName: Full=Hemoglobin subunit beta; ...  291     4e-97 
+ref|XP_008018083.1|  PREDICTED: hemoglobin subunit beta [Chlor...  291     4e-97 
+ref|XP_011818991.1|  PREDICTED: hemoglobin subunit beta [Colob...  291     5e-97 
+ref|XP_010361646.1|  PREDICTED: hemoglobin subunit beta [Rhino...  290     1e-96 
+sp|Q6WN22.3|HBB_ATEPA  RecName: Full=Hemoglobin subunit beta; ...  289     2e-96 
+sp|P68232.2|HBB_ATEGE  RecName: Full=Hemoglobin subunit beta; ...  288     3e-96 
+sp|Q6WN27.3|HBB_PITPI  RecName: Full=Hemoglobin subunit beta; ...  288     4e-96 
+sp|Q6WN25.3|HBB_LAGLA  RecName: Full=Hemoglobin subunit beta; ...  288     4e-96 
+ref|NP_001270296.1|  hemoglobin subunit beta [Macaca fascicula...  288     4e-96 
+sp|P02028.1|HBB_CHLAE  RecName: Full=Hemoglobin subunit beta; ...  288     5e-96 
+ref|XP_002754937.1|  PREDICTED: hemoglobin subunit beta [Calli...  288     7e-96 
+ref|NP_001157900.1|  hemoglobin subunit beta [Macaca mulatta]      287     1e-95 
+sp|P67821.3|HBB_SAPAP  RecName: Full=Hemoglobin subunit beta; ...  287     1e-95 
+ref|XP_012312232.1|  PREDICTED: hemoglobin subunit beta [Aotus...  287     1e-95 
+gb|ACA53486.1|  beta globin (predicted) [Callicebus moloch]        287     1e-95 
+sp|Q6WN21.3|HBB_CALGO  RecName: Full=Hemoglobin subunit beta; ...  287     2e-95 
+ref|XP_004050595.1|  PREDICTED: hemoglobin subunit beta [Goril...  286     3e-95 
+pir||C24693  hemoglobin beta chain - stump-tailed macaque          286     4e-95 
+sp|P02033.1|HBB_PILBA  RecName: Full=Hemoglobin subunit beta; ...  286     4e-95 
+ref|NP_001162318.1|  hemoglobin subunit beta [Papio anubis]        285     6e-95 
+prf||610523A  hemoglobin beta                                      285     6e-95 
+sp|P18985.1|HBB_CALAR  RecName: Full=Hemoglobin subunit beta; ...  285     7e-95 
+sp|P02036.2|HBB_SAISC  RecName: Full=Hemoglobin subunit beta; ...  285     8e-95 
+sp|Q6WN29.3|HBB_ALOBE  RecName: Full=Hemoglobin subunit beta; ...  285     1e-94 
+sp|P02039.1|HBB_SAGFU  RecName: Full=Hemoglobin subunit beta; ...  285     1e-94 
+sp|P08259.1|HBB_MANSP  RecName: Full=Hemoglobin subunit beta; ...  285     1e-94 
+sp|P02035.1|HBB_AOTTR  RecName: Full=Hemoglobin subunit beta; ...  285     1e-94 
+sp|P02026.1|HBB_MACMU  RecName: Full=Hemoglobin subunit beta; ...  285     1e-94 
+ref|XP_011818992.1|  PREDICTED: hemoglobin subunit delta isofo...  285     1e-94 
+ref|XP_002822175.1|  PREDICTED: hemoglobin subunit delta isofo...  285     1e-94 
+
+ALIGNMENTS
+>ref|NP_000509.1| hemoglobin subunit beta [Homo sapiens]
+ ref|XP_508242.1| PREDICTED: hemoglobin subunit beta [Pan troglodytes]
+ ref|XP_003819077.1| PREDICTED: hemoglobin subunit beta [Pan paniscus]
+ sp|P68871.2|HBB_HUMAN RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain; Contains: RecName: 
+Full=LVV-hemorphin-7; Contains: RecName: Full=Spinorphin
+ sp|P68872.2|HBB_PANPA RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+ sp|P68873.2|HBB_PANTR RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+ pdb|1DXT|B Chain B, High-Resolution X-Ray Study Of Deoxy Recombinant Human 
+Hemoglobins Synthesized From Beta-Globins Having Mutated 
+Amino Termini
+ pdb|1DXT|D Chain D, High-Resolution X-Ray Study Of Deoxy Recombinant Human 
+Hemoglobins Synthesized From Beta-Globins Having Mutated 
+Amino Termini
+ gb|AAM92001.1|AF527577_1 beta globin mutant [Homo sapiens]
+ emb|CAA23756.1| unnamed protein product [Homo sapiens]
+ emb|CAA23758.1| beta globin [Homo sapiens]
+ gb|AAA52634.1| beta hemoglobin [Homo sapiens]
+ gb|AAA16334.1| beta-globin [Homo sapiens]
+ gb|AAA21100.1| beta-globin [Homo sapiens]
+ gb|AAA21101.1| beta-globin [Homo sapiens]
+ gb|AAA21103.1| beta-globin [Homo sapiens]
+ gb|AAA21104.1| beta-globin [Homo sapiens]
+ gb|AAA21105.1| beta-globin [Homo sapiens]
+ gb|AAA21106.1| beta-globin [Homo sapiens]
+ gb|AAA21107.1| beta-globin [Homo sapiens]
+ gb|AAA21108.1| beta-globin [Homo sapiens]
+ gb|AAA21102.1| beta-globin [Homo sapiens]
+ gb|AAA21109.1| beta-globin [Homo sapiens]
+ gb|AAA21110.1| beta-globin [Homo sapiens]
+ gb|AAA21111.1| beta-globin [Homo sapiens]
+ gb|AAA21112.1| beta-globin [Homo sapiens]
+ gb|AAA21113.1| beta-globin [Homo sapiens]
+ gb|AAA21114.1| beta-globin [Homo sapiens]
+ gb|AAA21115.1| beta-globin [Homo sapiens]
+ gb|AAA21116.1| beta-globin [Homo sapiens]
+ gb|AAA88063.1| beta-globin [Homo sapiens]
+ gb|AAA88061.1| beta-globin [Homo sapiens]
+ gb|AAA88059.1| beta-globin [Homo sapiens]
+ gb|AAA88065.1| beta-globin [Homo sapiens]
+ gb|AAA88067.1| beta-globin [Homo sapiens]
+ gb|AAB62944.1| beta-globin [Homo sapiens]
+ gb|AAH07075.1| Hemoglobin, beta [Homo sapiens]
+ gb|AAP21062.1| beta globin chain [Homo sapiens]
+ emb|CAG38767.1| HBB [Homo sapiens]
+ emb|CAG46711.1| HBB [Homo sapiens]
+ gb|AAX42099.1| hemoglobin beta [synthetic construct]
+ gb|AAZ39745.1| beta globin [Homo sapiens]
+ gb|AAZ39746.1| beta globin [Homo sapiens]
+ gb|AAZ39747.1| beta globin [Homo sapiens]
+ gb|AAZ39748.1| beta globin [Homo sapiens]
+ gb|AAZ39749.1| beta globin [Homo sapiens]
+ gb|AAZ39750.1| beta globin [Homo sapiens]
+ gb|AAZ39751.1| beta globin [Homo sapiens]
+ gb|AAZ39752.1| beta globin [Homo sapiens]
+ gb|AAZ39753.1| beta globin [Homo sapiens]
+ gb|AAZ39754.1| beta globin [Homo sapiens]
+ gb|AAZ39755.1| beta globin [Homo sapiens]
+ gb|AAZ39756.1| beta globin [Homo sapiens]
+ gb|AAZ39757.1| beta globin [Homo sapiens]
+ gb|AAZ39758.1| beta globin [Homo sapiens]
+ gb|AAZ39759.1| beta globin [Homo sapiens]
+ gb|AAZ39760.1| beta globin [Homo sapiens]
+ gb|AAZ39761.1| beta globin [Homo sapiens]
+ gb|AAZ39762.1| beta globin [Homo sapiens]
+ gb|AAZ39763.1| beta globin [Homo sapiens]
+ gb|AAZ39764.1| beta globin [Homo sapiens]
+ gb|AAZ39765.1| beta globin [Homo sapiens]
+ gb|AAZ39766.1| beta globin [Homo sapiens]
+ gb|AAZ39767.1| beta globin [Homo sapiens]
+ gb|AAZ39768.1| beta globin [Homo sapiens]
+ gb|AAZ39769.1| beta globin [Homo sapiens]
+ gb|AAZ39770.1| beta globin [Homo sapiens]
+ gb|AAZ39771.1| beta globin [Homo sapiens]
+ gb|AAZ39772.1| beta globin [Homo sapiens]
+ gb|AAZ39773.1| beta globin [Homo sapiens]
+ gb|AAZ39774.1| beta globin [Homo sapiens]
+ gb|AAZ39775.1| beta globin [Homo sapiens]
+ gb|AAZ39776.1| beta globin [Homo sapiens]
+ gb|AAZ39777.1| beta globin [Homo sapiens]
+ gb|AAZ39778.1| beta globin [Homo sapiens]
+ gb|AAZ39779.1| beta globin [Homo sapiens]
+ emb|CAL38229.1| hypothetical protein [synthetic construct]
+ emb|CAL37415.1| hypothetical protein, partial [synthetic construct]
+ gb|EAW68806.1| hemoglobin, beta [Homo sapiens]
+ gb|ABM84085.1| hemoglobin, beta [synthetic construct]
+ gb|ABM87452.1| hemoglobin, beta [synthetic construct]
+ gb|ABO36678.1| beta globin chain [Homo sapiens]
+ gb|ABW03575.1| hemoglobin, beta, partial [synthetic construct]
+ dbj|BAG34767.1| unnamed protein product [Homo sapiens]
+ gb|ADL14493.1| hemoglobin, beta [Homo sapiens]
+ gb|AIC54530.1| HBB, partial [synthetic construct]
+Length=147
+
+ Score = 301 bits (770),  Expect = 5e-101, Method: Compositional matrix adjust.
+ Identities = 147/147 (100%), Positives = 147/147 (100%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK
+Sbjct  1    MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPPVQAAYQKVVAGVANALAHKYH  147
+
+
+>gb|AAX29557.1| hemoglobin beta [synthetic construct]
+Length=148
+
+ Score = 301 bits (770),  Expect = 5e-101, Method: Compositional matrix adjust.
+ Identities = 147/147 (100%), Positives = 147/147 (100%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK
+Sbjct  1    MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPPVQAAYQKVVAGVANALAHKYH  147
+
+
+>gb|AAX37051.1| hemoglobin beta [synthetic construct]
+Length=148
+
+ Score = 301 bits (770),  Expect = 6e-101, Method: Compositional matrix adjust.
+ Identities = 147/147 (100%), Positives = 147/147 (100%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK
+Sbjct  1    MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPPVQAAYQKVVAGVANALAHKYH  147
+
+
+>sp|P02024.2|HBB_GORGO RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+Length=147
+
+ Score = 300 bits (767),  Expect = 2e-100, Method: Compositional matrix adjust.
+ Identities = 146/147 (99%), Positives = 147/147 (100%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK
+Sbjct  1    MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENF+LLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFKLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPPVQAAYQKVVAGVANALAHKYH  147
+
+
+>gb|AAN84548.1| beta globin chain variant [Homo sapiens]
+Length=147
+
+ Score = 299 bits (766),  Expect = 2e-100, Method: Compositional matrix adjust.
+ Identities = 146/147 (99%), Positives = 147/147 (100%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK
+Sbjct  1    MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            K+FTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  KKFTPPVQAAYQKVVAGVANALAHKYH  147
+
+
+>gb|AAZ39780.1| beta globin [Homo sapiens]
+ gb|AAZ39781.1| beta globin [Homo sapiens]
+ gb|AAZ39782.1| beta globin [Homo sapiens]
+ gb|AAZ39783.1| beta globin [Homo sapiens]
+ gb|AAZ39784.1| beta globin [Homo sapiens]
+ gb|AAZ39785.1| beta globin [Homo sapiens]
+ gb|AAZ39786.1| beta globin [Homo sapiens]
+ gb|AAZ39787.1| beta globin [Homo sapiens]
+ gb|AAZ39788.1| beta globin [Homo sapiens]
+ gb|AAZ39789.1| beta globin [Homo sapiens]
+ gb|AAZ39790.1| beta globin [Homo sapiens]
+ gb|AAZ39791.1| beta globin [Homo sapiens]
+ gb|AAZ39792.1| beta globin [Homo sapiens]
+ gb|AAZ39793.1| beta globin [Homo sapiens]
+ gb|AAZ39794.1| beta globin [Homo sapiens]
+ gb|AAZ39795.1| beta globin [Homo sapiens]
+ gb|AAZ39796.1| beta globin [Homo sapiens]
+ gb|AAZ39797.1| beta globin [Homo sapiens]
+ gb|AAZ39798.1| beta globin [Homo sapiens]
+ gb|AAZ39799.1| beta globin [Homo sapiens]
+ gb|AAZ39800.1| beta globin [Homo sapiens]
+Length=147
+
+ Score = 299 bits (766),  Expect = 2e-100, Method: Compositional matrix adjust.
+ Identities = 146/147 (99%), Positives = 147/147 (100%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTP+EKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK
+Sbjct  1    MVHLTPKEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPPVQAAYQKVVAGVANALAHKYH  147
+
+
+>gb|ACU56984.1| beta-globin [Homo sapiens]
+Length=147
+
+ Score = 299 bits (766),  Expect = 2e-100, Method: Compositional matrix adjust.
+ Identities = 146/147 (99%), Positives = 147/147 (100%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFF+SFGDLSTPDAVMGNPK
+Sbjct  1    MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFKSFGDLSTPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPPVQAAYQKVVAGVANALAHKYH  147
+
+
+>gb|AKI70610.1| HBB, partial [synthetic construct]
+Length=147
+
+ Score = 299 bits (766),  Expect = 2e-100, Method: Compositional matrix adjust.
+ Identities = 146/147 (99%), Positives = 146/147 (99%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK
+Sbjct  1    MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPEN RLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENLRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPPVQAAYQKVVAGVANALAHKYH  147
+
+
+>gb|AAD19696.1| hemoglobin beta chain [Homo sapiens]
+Length=147
+
+ Score = 299 bits (766),  Expect = 2e-100, Method: Compositional matrix adjust.
+ Identities = 146/147 (99%), Positives = 146/147 (99%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRF ESFGDLSTPDAVMGNPK
+Sbjct  1    MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFLESFGDLSTPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPPVQAAYQKVVAGVANALAHKYH  147
+
+
+>gb|AKI70611.1| HBB, partial [synthetic construct]
+Length=147
+
+ Score = 298 bits (764),  Expect = 4e-100, Method: Compositional matrix adjust.
+ Identities = 146/147 (99%), Positives = 146/147 (99%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK
+Sbjct  1    MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVL HHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLDHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPPVQAAYQKVVAGVANALAHKYH  147
+
+
+>pdb|1COH|B Chain B, Structure Of Haemoglobin In The Deoxy Quaternary State 
+With Ligand Bound At The Alpha Haems
+ pdb|1COH|D Chain D, Structure Of Haemoglobin In The Deoxy Quaternary State 
+With Ligand Bound At The Alpha Haems
+ pdb|1HCO|B Chain B, The Structure Of Human Carbonmonoxy Haemoglobin At 2.7 
+Angstroms Resolution
+ pdb|1HHO|B Chain B, Structure Of Human Oxyhaemoglobin At 2.1 Angstroms Resolution
+ pdb|1NIH|B Chain B, Structure Of Deoxy-Quaternary Haemoglobin With Liganded 
+Beta Subunits
+ pdb|1NIH|D Chain D, Structure Of Deoxy-Quaternary Haemoglobin With Liganded 
+Beta Subunits
+ pdb|1THB|B Chain B, Refinement Of A Partially Oxygenated T State Haemoglobin 
+At 1.5 Angstroms Resolution
+ pdb|1THB|D Chain D, Refinement Of A Partially Oxygenated T State Haemoglobin 
+At 1.5 Angstroms Resolution
+ pdb|2HCO|B Chain B, The Structure Of Human Carbonmonoxy Haemoglobin At 2.7 
+Angstroms Resolution
+ pdb|2HHB|B Chain B, The Crystal Structure Of Human Deoxyhaemoglobin At 1.74 
+Angstroms Resolution
+ pdb|2HHB|D Chain D, The Crystal Structure Of Human Deoxyhaemoglobin At 1.74 
+Angstroms Resolution
+ pdb|3HHB|B Chain B, The Crystal Structure Of Human Deoxyhaemoglobin At 1.74 
+Angstroms Resolution
+ pdb|4HHB|B Chain B, The Crystal Structure Of Human Deoxyhaemoglobin At 1.74 
+Angstroms Resolution
+ pdb|4HHB|D Chain D, The Crystal Structure Of Human Deoxyhaemoglobin At 1.74 
+Angstroms Resolution
+ pdb|1BBB|B Chain B, A Third Quaternary Structure Of Human Hemoglobin A At 
+1.7-angstroms Resolution
+ pdb|1BBB|D Chain D, A Third Quaternary Structure Of Human Hemoglobin A At 
+1.7-angstroms Resolution
+ pdb|1BAB|B Chain B, Hemoglobin Thionville: An Alpha-Chain Variant With A 
+Substitution Of A Glutamate For Valine At Na-1 And Having An 
+Acetylated Methionine Nh2 Terminus
+ pdb|1BAB|D Chain D, Hemoglobin Thionville: An Alpha-Chain Variant With A 
+Substitution Of A Glutamate For Valine At Na-1 And Having An 
+Acetylated Methionine Nh2 Terminus
+ pdb|1HBB|B Chain B, High-Resolution X-Ray Study Of Deoxyhemoglobin Rothschild 
+37beta Trp-> Arg: A Mutation That Creates An Intersubunit 
+Chloride-Binding Site
+ pdb|1HBB|D Chain D, High-Resolution X-Ray Study Of Deoxyhemoglobin Rothschild 
+37beta Trp-> Arg: A Mutation That Creates An Intersubunit 
+Chloride-Binding Site
+ pdb|1HGA|B Chain B, High Resolution Crystal Structures And Comparisons Of 
+T State Deoxyhaemoglobin And Two Liganded T-state Haemoglobins: 
+T(alpha-oxy) Haemoglobin And T(met)haemoglobin
+ pdb|1HGA|D Chain D, High Resolution Crystal Structures And Comparisons Of 
+T State Deoxyhaemoglobin And Two Liganded T-state Haemoglobins: 
+T(alpha-oxy) Haemoglobin And T(met)haemoglobin
+ pdb|1HGB|B Chain B, High Resolution Crystal Structures And Comparisons Of 
+T State Deoxyhaemoglobin And Two Liganded T-State Haemoglobins: 
+T(Alpha-Oxy) Haemoglobin And T(Met)haemoglobin
+ pdb|1HGB|D Chain D, High Resolution Crystal Structures And Comparisons Of 
+T State Deoxyhaemoglobin And Two Liganded T-State Haemoglobins: 
+T(Alpha-Oxy) Haemoglobin And T(Met)haemoglobin
+ pdb|1HGC|B Chain B, High Resolution Crystal Structures And Comparisons Of 
+T State Deoxyhaemoglobin And Two Liganded T-state Haemoglobins: 
+T(alpha-oxy) Haemoglobin And T(met)haemoglobin
+ pdb|1HGC|D Chain D, High Resolution Crystal Structures And Comparisons Of 
+T State Deoxyhaemoglobin And Two Liganded T-state Haemoglobins: 
+T(alpha-oxy) Haemoglobin And T(met)haemoglobin
+ pdb|1CBL|A Chain A, The 1.9 Angstrom Structure Of Deoxy-Beta4 Hemoglobin: 
+Analysis Of The Partitioning Of Quaternary-Associated And 
+Ligand-Induced Changes In Tertiary Structure
+ pdb|1CBL|B Chain B, The 1.9 Angstrom Structure Of Deoxy-Beta4 Hemoglobin: 
+Analysis Of The Partitioning Of Quaternary-Associated And 
+Ligand-Induced Changes In Tertiary Structure
+ pdb|1CBL|C Chain C, The 1.9 Angstrom Structure Of Deoxy-Beta4 Hemoglobin: 
+Analysis Of The Partitioning Of Quaternary-Associated And 
+Ligand-Induced Changes In Tertiary Structure
+ pdb|1CBL|D Chain D, The 1.9 Angstrom Structure Of Deoxy-Beta4 Hemoglobin: 
+Analysis Of The Partitioning Of Quaternary-Associated And 
+Ligand-Induced Changes In Tertiary Structure
+ pdb|1CBM|A Chain A, The 1.8 Angstrom Structure Of Carbonmonoxy-Beta4 Hemoglobin: 
+Analysis Of A Homotetramer With The R Quaternary Structure 
+Of Liganded Alpha2beta2 Hemoglobin
+ pdb|1CBM|B Chain B, The 1.8 Angstrom Structure Of Carbonmonoxy-Beta4 Hemoglobin: 
+Analysis Of A Homotetramer With The R Quaternary Structure 
+Of Liganded Alpha2beta2 Hemoglobin
+ pdb|1CBM|C Chain C, The 1.8 Angstrom Structure Of Carbonmonoxy-Beta4 Hemoglobin: 
+Analysis Of A Homotetramer With The R Quaternary Structure 
+Of Liganded Alpha2beta2 Hemoglobin
+ pdb|1CBM|D Chain D, The 1.8 Angstrom Structure Of Carbonmonoxy-Beta4 Hemoglobin: 
+Analysis Of A Homotetramer With The R Quaternary Structure 
+Of Liganded Alpha2beta2 Hemoglobin
+ pdb|2HBC|B Chain B, High Resolution X-ray Structures Of Myoglobin-and Hemoglobin-alkyl 
+Isocyanide Complexes
+ pdb|2HBD|B Chain B, High Resolution X-Ray Structures Of Myoglobin-And Hemoglobin-Alkyl 
+Isocyanide Complexes
+ pdb|2HBE|B Chain B, High Resolution X-Ray Structures Of Myoglobin-And Hemoglobin-Alkyl 
+Isocyanide Complexes
+ pdb|2HBF|B Chain B, High Resolution X-Ray Structures Of Myoglobin-And Hemoglobin-Alkyl 
+Isocyanide Complexes
+ pdb|2HHD|B Chain B, Oxygen Affinity Modulation By The N-Termini Of The Beta- 
+Chains In Human And Bovine Hemoglobin
+ pdb|2HHD|D Chain D, Oxygen Affinity Modulation By The N-Termini Of The Beta- 
+Chains In Human And Bovine Hemoglobin
+ pdb|1CLS|B Chain B, Cross-Linked Human Hemoglobin Deoxy
+ pdb|1CLS|D Chain D, Cross-Linked Human Hemoglobin Deoxy
+ pdb|1SDL|B Chain B, Cross-Linked, Carbonmonoxy Hemoglobin A
+ pdb|1SDL|D Chain D, Cross-Linked, Carbonmonoxy Hemoglobin A
+ pdb|1SDK|B Chain B, Cross-linked, Carbonmonoxy Hemoglobin A
+ pdb|1SDK|D Chain D, Cross-linked, Carbonmonoxy Hemoglobin A
+ pdb|1HAB|B Chain B, Crosslinked Haemoglobin
+ pdb|1HAB|D Chain D, Crosslinked Haemoglobin
+ pdb|1HAC|B Chain B, Crosslinked Haemoglobin
+ pdb|1HAC|D Chain D, Crosslinked Haemoglobin
+ pdb|1RVW|B Chain B, R State Human Hemoglobin [alpha V96w], Carbonmonoxy
+ pdb|1VWT|B Chain B, T State Human Hemoglobin [alpha V96w], Alpha Aquomet, 
+Beta Deoxy
+ pdb|1VWT|D Chain D, T State Human Hemoglobin [alpha V96w], Alpha Aquomet, 
+Beta Deoxy
+ pdb|1A3N|B Chain B, Deoxy Human Hemoglobin
+ pdb|1A3N|D Chain D, Deoxy Human Hemoglobin
+ pdb|1A3O|B Chain B, Artificial Mutant (Alpha Y42h) Of Deoxy Hemoglobin
+ pdb|1A3O|D Chain D, Artificial Mutant (Alpha Y42h) Of Deoxy Hemoglobin
+ pdb|1AJ9|B Chain B, R-State Human Carbonmonoxyhemoglobin Alpha-A53s
+ pdb|1BZZ|B Chain B, Hemoglobin (Alpha V1m) Mutant
+ pdb|1BZZ|D Chain D, Hemoglobin (Alpha V1m) Mutant
+ pdb|1BZ0|B Chain B, Hemoglobin A (Human, Deoxy, High Salt)
+ pdb|1BZ0|D Chain D, Hemoglobin A (Human, Deoxy, High Salt)
+ pdb|1BZ1|B Chain B, Hemoglobin (Alpha + Met) Variant
+ pdb|1BZ1|D Chain D, Hemoglobin (Alpha + Met) Variant
+ pdb|1B86|B Chain B, Human Deoxyhaemoglobin-2,3-Diphosphoglycerate Complex
+ pdb|1B86|D Chain D, Human Deoxyhaemoglobin-2,3-Diphosphoglycerate Complex
+ pdb|1BIJ|B Chain B, Crosslinked, Deoxy Human Hemoglobin A
+ pdb|1BIJ|D Chain D, Crosslinked, Deoxy Human Hemoglobin A
+ pdb|1QSH|B Chain B, Magnesium(Ii)-And Zinc(Ii)-Protoporphyrin Ix's Stabilize 
+The Lowest Oxygen Affinity State Of Human Hemoglobin Even 
+More Strongly Than Deoxyheme
+ pdb|1QSH|D Chain D, Magnesium(Ii)-And Zinc(Ii)-Protoporphyrin Ix's Stabilize 
+The Lowest Oxygen Affinity State Of Human Hemoglobin Even 
+More Strongly Than Deoxyheme
+ pdb|1QSI|B Chain B, Magnesium(Ii)-And Zinc(Ii)-Protoporphyrin Ix's Stabilize 
+The Lowest Oxygen Affinity State Of Human Hemoglobin Even 
+More Strongly Than Deoxyheme
+ pdb|1QSI|D Chain D, Magnesium(Ii)-And Zinc(Ii)-Protoporphyrin Ix's Stabilize 
+The Lowest Oxygen Affinity State Of Human Hemoglobin Even 
+More Strongly Than Deoxyheme
+ pdb|1DKE|B Chain B, Ni Beta Heme Human Hemoglobin
+ pdb|1DKE|D Chain D, Ni Beta Heme Human Hemoglobin
+ pdb|1G9V|B Chain B, High Resolution Crystal Structure Of Deoxy Hemoglobin 
+Complexed With A Potent Allosteric Effector
+ pdb|1G9V|D Chain D, High Resolution Crystal Structure Of Deoxy Hemoglobin 
+Complexed With A Potent Allosteric Effector
+ pdb|1K0Y|B Chain B, X-ray Crystallographic Analyses Of Symmetrical Allosteric 
+Effectors Of Hemoglobin. Compounds Designed To Link Primary 
+And Secondary Binding Sites
+ pdb|1K0Y|D Chain D, X-ray Crystallographic Analyses Of Symmetrical Allosteric 
+Effectors Of Hemoglobin. Compounds Designed To Link Primary 
+And Secondary Binding Sites
+ pdb|1IRD|B Chain B, Crystal Structure Of Human Carbonmonoxy-Haemoglobin 
+At 1.25 A Resolution
+ pdb|1JY7|B Chain B, The Structure Of Human Methemoglobin. The Variation 
+Of A Theme
+ pdb|1JY7|D Chain D, The Structure Of Human Methemoglobin. The Variation 
+Of A Theme
+ pdb|1JY7|Q Chain Q, The Structure Of Human Methemoglobin. The Variation 
+Of A Theme
+ pdb|1JY7|S Chain S, The Structure Of Human Methemoglobin. The Variation 
+Of A Theme
+ pdb|1JY7|V Chain V, The Structure Of Human Methemoglobin. The Variation 
+Of A Theme
+ pdb|1JY7|X Chain X, The Structure Of Human Methemoglobin. The Variation 
+Of A Theme
+ pdb|1LJW|B Chain B, Crystal Structure Of Human Carbonmonoxy Hemoglobin At 
+2.16 A: A Snapshot Of The Allosteric Transition
+ pdb|1GZX|B Chain B, Oxy T State Haemoglobin: Oxygen Bound At All Four Haems
+ pdb|1GZX|D Chain D, Oxy T State Haemoglobin: Oxygen Bound At All Four Haems
+ pdb|1MKO|B Chain B, A Fourth Quaternary Structure Of Human Hemoglobin A 
+At 2.18 A Resolution
+ pdb|1MKO|D Chain D, A Fourth Quaternary Structure Of Human Hemoglobin A 
+At 2.18 A Resolution
+ pdb|1LFL|B Chain B, Deoxy Hemoglobin (90% Relative Humidity)
+ pdb|1LFL|D Chain D, Deoxy Hemoglobin (90% Relative Humidity)
+ pdb|1LFL|Q Chain Q, Deoxy Hemoglobin (90% Relative Humidity)
+ pdb|1LFL|S Chain S, Deoxy Hemoglobin (90% Relative Humidity)
+ pdb|1LFQ|B Chain B, Oxy Hemoglobin (93% Relative Humidity)
+ pdb|1LFT|B Chain B, Oxy Hemoglobin (90% Relative Humidity)
+ pdb|1LFV|B Chain B, Oxy Hemoglobin (88% Relative Humidity)
+ pdb|1LFY|B Chain B, Oxy Hemoglobin (84% Relative Humidity)
+ pdb|1LFZ|B Chain B, Oxy Hemoglobin (25% Methanol)
+ pdb|1KD2|B Chain B, Crystal Structure Of Human Deoxyhemoglobin In Absence 
+Of Any Anions
+ pdb|1KD2|D Chain D, Crystal Structure Of Human Deoxyhemoglobin In Absence 
+Of Any Anions
+ pdb|1UIW|B Chain B, Crystal Structures Of Unliganded And Half-Liganded Human 
+Hemoglobin Derivatives Cross-Linked Between Lys 82beta1 
+And Lys 82beta2
+ pdb|1UIW|D Chain D, Crystal Structures Of Unliganded And Half-Liganded Human 
+Hemoglobin Derivatives Cross-Linked Between Lys 82beta1 
+And Lys 82beta2
+ pdb|1UIW|F Chain F, Crystal Structures Of Unliganded And Half-Liganded Human 
+Hemoglobin Derivatives Cross-Linked Between Lys 82beta1 
+And Lys 82beta2
+ pdb|1UIW|H Chain H, Crystal Structures Of Unliganded And Half-Liganded Human 
+Hemoglobin Derivatives Cross-Linked Between Lys 82beta1 
+And Lys 82beta2
+ pdb|1J3Y|B Chain B, Direct Observation Of Photolysis-Induced Tertiary Structural 
+Changes In Human Hemoglobin; Crystal Structure Of Alpha(Fe)-Beta(Ni) 
+Hemoglobin (Laser Photolysed)
+ pdb|1J3Y|D Chain D, Direct Observation Of Photolysis-Induced Tertiary Structural 
+Changes In Human Hemoglobin; Crystal Structure Of Alpha(Fe)-Beta(Ni) 
+Hemoglobin (Laser Photolysed)
+ pdb|1J3Y|F Chain F, Direct Observation Of Photolysis-Induced Tertiary Structural 
+Changes In Human Hemoglobin; Crystal Structure Of Alpha(Fe)-Beta(Ni) 
+Hemoglobin (Laser Photolysed)
+ pdb|1J3Y|H Chain H, Direct Observation Of Photolysis-Induced Tertiary Structural 
+Changes In Human Hemoglobin; Crystal Structure Of Alpha(Fe)-Beta(Ni) 
+Hemoglobin (Laser Photolysed)
+ pdb|1J3Z|B Chain B, Direct Observation Of Photolysis-Induced Tertiary Structural 
+Changes In Human Haemoglobin; Crystal Structure Of 
+Alpha(Fe-Co)-Beta(Ni) Hemoglobin (Laser Unphotolysed)
+ pdb|1J3Z|D Chain D, Direct Observation Of Photolysis-Induced Tertiary Structural 
+Changes In Human Haemoglobin; Crystal Structure Of 
+Alpha(Fe-Co)-Beta(Ni) Hemoglobin (Laser Unphotolysed)
+ pdb|1J3Z|F Chain F, Direct Observation Of Photolysis-Induced Tertiary Structural 
+Changes In Human Haemoglobin; Crystal Structure Of 
+Alpha(Fe-Co)-Beta(Ni) Hemoglobin (Laser Unphotolysed)
+ pdb|1J3Z|H Chain H, Direct Observation Of Photolysis-Induced Tertiary Structural 
+Changes In Human Haemoglobin; Crystal Structure Of 
+Alpha(Fe-Co)-Beta(Ni) Hemoglobin (Laser Unphotolysed)
+ pdb|1J40|B Chain B, Direct Observation Of Photolysis-Induced Tertiary Structural 
+Changes In Human Haemoglobin; Crystal Structure Of 
+Alpha(Ni)-Beta(Fe-Co) Hemoglobin (Laser Unphotolysed)
+ pdb|1J40|D Chain D, Direct Observation Of Photolysis-Induced Tertiary Structural 
+Changes In Human Haemoglobin; Crystal Structure Of 
+Alpha(Ni)-Beta(Fe-Co) Hemoglobin (Laser Unphotolysed)
+ pdb|1J40|F Chain F, Direct Observation Of Photolysis-Induced Tertiary Structural 
+Changes In Human Haemoglobin; Crystal Structure Of 
+Alpha(Ni)-Beta(Fe-Co) Hemoglobin (Laser Unphotolysed)
+ pdb|1J40|H Chain H, Direct Observation Of Photolysis-Induced Tertiary Structural 
+Changes In Human Haemoglobin; Crystal Structure Of 
+Alpha(Ni)-Beta(Fe-Co) Hemoglobin (Laser Unphotolysed)
+ pdb|1J41|B Chain B, Direct Observation Of Photolysis-Induced Tertiary Structural 
+Changes In Human Haemoglobin; Crystal Structure Of 
+Alpha(Ni)-Beta(Fe) Hemoglobin (Laser Photolysed)
+ pdb|1J41|D Chain D, Direct Observation Of Photolysis-Induced Tertiary Structural 
+Changes In Human Haemoglobin; Crystal Structure Of 
+Alpha(Ni)-Beta(Fe) Hemoglobin (Laser Photolysed)
+ pdb|1J41|F Chain F, Direct Observation Of Photolysis-Induced Tertiary Structural 
+Changes In Human Haemoglobin; Crystal Structure Of 
+Alpha(Ni)-Beta(Fe) Hemoglobin (Laser Photolysed)
+ pdb|1J41|H Chain H, Direct Observation Of Photolysis-Induced Tertiary Structural 
+Changes In Human Haemoglobin; Crystal Structure Of 
+Alpha(Ni)-Beta(Fe) Hemoglobin (Laser Photolysed)
+ pdb|1FN3|B Chain B, Crystal Structure Of Nickel Reconstituted Hemoglobin-A 
+Case For Permanent, T-State Hemoglobin
+ pdb|1FN3|D Chain D, Crystal Structure Of Nickel Reconstituted Hemoglobin-A 
+Case For Permanent, T-State Hemoglobin
+ pdb|1QXD|B Chain B, Structural Basis For The Potent Antisickling Effect 
+Of A Novel Class Of 5-Membered Heterocyclic Aldehydic Compounds
+ pdb|1QXD|D Chain D, Structural Basis For The Potent Antisickling Effect 
+Of A Novel Class Of 5-Membered Heterocyclic Aldehydic Compounds
+ pdb|1QXE|B Chain B, Structural Basis For The Potent Antisickling Effect 
+Of A Novel Class Of 5-Membered Heterocyclic Aldehydic Compounds
+ pdb|1QXE|D Chain D, Structural Basis For The Potent Antisickling Effect 
+Of A Novel Class Of 5-Membered Heterocyclic Aldehydic Compounds
+ pdb|1R1X|B Chain B, Crystal Structure Of Oxy-Human Hemoglobin Bassett At 
+2.15 Angstrom
+ pdb|1R1Y|B Chain B, Crystal Structure Of Deoxy-Human Hemoglobin Bassett 
+At 1.8 Angstrom
+ pdb|1R1Y|D Chain D, Crystal Structure Of Deoxy-Human Hemoglobin Bassett 
+At 1.8 Angstrom
+ pdb|1RPS|B Chain B, Crystallographic Analysis Of The Interaction Of Nitric 
+Oxide With Quaternary-T Human Hemoglobin. Hemoglobin Exposed 
+To No Under Anerobic Conditions
+ pdb|1RPS|D Chain D, Crystallographic Analysis Of The Interaction Of Nitric 
+Oxide With Quaternary-T Human Hemoglobin. Hemoglobin Exposed 
+To No Under Anerobic Conditions
+ pdb|1RQ3|B Chain B, Crystallographic Analysis Of The Interaction Of Nitric 
+Oxide With Quaternary-T Human Deoxyhemoglobin, Deoxyhemoglobin
+ pdb|1RQ3|D Chain D, Crystallographic Analysis Of The Interaction Of Nitric 
+Oxide With Quaternary-T Human Deoxyhemoglobin, Deoxyhemoglobin
+ pdb|1XYE|B Chain B, T-to-thigh Transitions In Human Hemoglobin: Alpha Y42a 
+Deoxy Low Salt
+ pdb|1XYE|D Chain D, T-to-thigh Transitions In Human Hemoglobin: Alpha Y42a 
+Deoxy Low Salt
+ pdb|1XZ2|B Chain B, Wild-Type Hemoglobin Deoxy No-Salt
+ pdb|1XZ2|D Chain D, Wild-Type Hemoglobin Deoxy No-Salt
+ pdb|1XZ4|B Chain B, Intersubunit Interactions Associated With Tyr42alpha 
+Stabilize The Quaternary-T Tetramer But Are Not Major Quaternary 
+Constraints In Deoxyhemoglobin: Alphay42a Deoxyhemoglobin 
+No-Salt
+ pdb|1XZ4|D Chain D, Intersubunit Interactions Associated With Tyr42alpha 
+Stabilize The Quaternary-T Tetramer But Are Not Major Quaternary 
+Constraints In Deoxyhemoglobin: Alphay42a Deoxyhemoglobin 
+No-Salt
+ pdb|1XZ7|B Chain B, T-To-Thigh Quaternary Transitions In Human Hemoglobin: 
+Alphar92a Deoxy Low-Salt
+ pdb|1XZ7|D Chain D, T-To-Thigh Quaternary Transitions In Human Hemoglobin: 
+Alphar92a Deoxy Low-Salt
+ pdb|1Y09|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Alphan97a Deoxy Low-Salt
+ pdb|1Y09|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Alphan97a Deoxy Low-Salt
+ pdb|1Y0D|B Chain B, T-To-Thigh Quaternary Transitions In Human Hemoglobin: 
+Desarg141alpha Deoxy Low-Salt
+ pdb|1Y0D|D Chain D, T-To-Thigh Quaternary Transitions In Human Hemoglobin: 
+Desarg141alpha Deoxy Low-Salt
+ pdb|1YDZ|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Alphay140f Oxy (2mm Ihp, 20% Peg) (1 Test Set)
+ pdb|1YDZ|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Alphay140f Oxy (2mm Ihp, 20% Peg) (1 Test Set)
+ pdb|1YH9|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Hba Oxy (2mm Ihp, 20% Peg) (10 Test Sets)
+ pdb|1YH9|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Hba Oxy (2mm Ihp, 20% Peg) (10 Test Sets)
+ pdb|1YHE|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Hba Oxy (5.0mm Ihp, 20% Peg) (10 Test Sets)
+ pdb|1YHE|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Hba Oxy (5.0mm Ihp, 20% Peg) (10 Test Sets)
+ pdb|1YHR|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Hba Oxy (10.0mm Ihp, 20% Peg) (10 Test Sets)
+ pdb|1YHR|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Hba Oxy (10.0mm Ihp, 20% Peg) (10 Test Sets)
+ pdb|1Y8W|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Alphar92a Oxy (2mm Ihp, 20% Peg) (10 Test Sets)
+ pdb|1Y8W|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Alphar92a Oxy (2mm Ihp, 20% Peg) (10 Test Sets)
+ pdb|1XXT|B Chain B, The T-To-T High Transitions In Human Hemoglobin: Wild-Type 
+Deoxy Hb A (Low Salt, One Test Set)
+ pdb|1XXT|D Chain D, The T-To-T High Transitions In Human Hemoglobin: Wild-Type 
+Deoxy Hb A (Low Salt, One Test Set)
+ pdb|1XY0|B Chain B, T-To-Thigh Transitions In Human Hemoglobin: Alphak40g 
+Deoxy Low-Salt
+ pdb|1XY0|D Chain D, T-To-Thigh Transitions In Human Hemoglobin: Alphak40g 
+Deoxy Low-Salt
+ pdb|1XZ5|B Chain B, T-To-Thigh Quaternary Transitions In Human Hemoglobin: 
+Alphal91a Deoxy Low-Salt
+ pdb|1XZ5|D Chain D, T-To-Thigh Quaternary Transitions In Human Hemoglobin: 
+Alphal91a Deoxy Low-Salt
+ pdb|1XZU|B Chain B, T-To-Thigh Quaternary Transitions In Human Hemoglobin: 
+Alphad94g Deoxy Low-Salt
+ pdb|1XZU|D Chain D, T-To-Thigh Quaternary Transitions In Human Hemoglobin: 
+Alphad94g Deoxy Low-Salt
+ pdb|1XZV|B Chain B, T-To-Thigh Quaternary Transitions In Human Hemoglobin: 
+Alphap95a Deoxy Low-Salt
+ pdb|1XZV|D Chain D, T-To-Thigh Quaternary Transitions In Human Hemoglobin: 
+Alphap95a Deoxy Low-Salt
+ pdb|1Y0A|B Chain B, T-To-Thigh Quaternary Transitions In Human Hemoglobin: 
+Alphay140a Deoxy Low-Salt
+ pdb|1Y0A|D Chain D, T-To-Thigh Quaternary Transitions In Human Hemoglobin: 
+Alphay140a Deoxy Low-Salt
+ pdb|1Y0C|B Chain B, T-To-Thigh Quaternary Transitions In Human Hemoglobin: 
+Alphay140f Deoxy Low-Salt
+ pdb|1Y0C|D Chain D, T-To-Thigh Quaternary Transitions In Human Hemoglobin: 
+Alphay140f Deoxy Low-Salt
+ pdb|1YZI|B Chain B, A Novel Quaternary Structure Of Human Carbonmonoxy Hemoglobin
+ pdb|2D5Z|B Chain B, Crystal Structure Of T-State Human Hemoglobin Complexed 
+With Three L35 Molecules
+ pdb|2D5Z|D Chain D, Crystal Structure Of T-State Human Hemoglobin Complexed 
+With Three L35 Molecules
+ pdb|2D60|B Chain B, Crystal Structure Of Deoxy Human Hemoglobin Complexed 
+With Two L35 Molecules
+ pdb|2D60|D Chain D, Crystal Structure Of Deoxy Human Hemoglobin Complexed 
+With Two L35 Molecules
+ pdb|2DN1|B Chain B, 1.25a Resolution Crystal Structure Of Human Hemoglobin 
+In The Oxy Form
+ pdb|2DN2|B Chain B, 1.25a Resolution Crystal Structure Of Human Hemoglobin 
+In The Deoxy Form
+ pdb|2DN2|D Chain D, 1.25a Resolution Crystal Structure Of Human Hemoglobin 
+In The Deoxy Form
+ pdb|2DN3|B Chain B, 1.25a Resolution Crystal Structure Of Human Hemoglobin 
+In The Carbonmonoxy Form
+ pdb|2H35|B Chain B, Solution Structure Of Human Normal Adult Hemoglobin
+ pdb|2H35|D Chain D, Solution Structure Of Human Normal Adult Hemoglobin
+ pdb|3HHB|D Chain D, The Crystal Structure Of Human Deoxyhaemoglobin At 1.74 
+Angstroms Resolution
+ pdb|2DXM|B Chain B, Neutron Structure Analysis Of Deoxy Human Hemoglobin
+ pdb|3D17|B Chain B, A Triply Ligated Crystal Structure Of Relaxed State 
+Human Hemoglobin
+ pdb|3D17|D Chain D, A Triply Ligated Crystal Structure Of Relaxed State 
+Human Hemoglobin
+ pdb|3B75|B Chain B, Crystal Structure Of Glycated Human Haemoglobin
+ pdb|3B75|D Chain D, Crystal Structure Of Glycated Human Haemoglobin
+ pdb|3B75|F Chain F, Crystal Structure Of Glycated Human Haemoglobin
+ pdb|3B75|H Chain H, Crystal Structure Of Glycated Human Haemoglobin
+ pdb|3B75|T Chain T, Crystal Structure Of Glycated Human Haemoglobin
+ pdb|2W6V|B Chain B, Structure Of Human Deoxy Hemoglobin A In Complex With 
+Xenon
+ pdb|2W6V|D Chain D, Structure Of Human Deoxy Hemoglobin A In Complex With 
+Xenon
+ pdb|3D7O|B Chain B, Human Hemoglobin, Nitrogen Dioxide Anion Modified
+ pdb|3IC0|B Chain B, Crystal Structure Of Liganded Hemoglobin In Complex 
+With A Potent Antisickling Agent, Inn-298
+ pdb|3IC0|D Chain D, Crystal Structure Of Liganded Hemoglobin In Complex 
+With A Potent Antisickling Agent, Inn-298
+ pdb|3IC2|B Chain B, Crystal Structure Of Liganded Hemoglobin In Complex 
+With A Potent Antisickling Agent, Inn-266
+ pdb|3IC2|D Chain D, Crystal Structure Of Liganded Hemoglobin In Complex 
+With A Potent Antisickling Agent, Inn-266
+ pdb|3HXN|B Chain B, The Structure Of Human Carbonmonoxyhemoglobin Complex 
+To Ihp At 2.0 Angstrons Resolution.
+ pdb|3HXN|D Chain D, The Structure Of Human Carbonmonoxyhemoglobin Complex 
+To Ihp At 2.0 Angstrons Resolution.
+ pdb|3NMM|B Chain B, Human Hemoglobin A Mutant Alpha H58w Deoxy-Form
+ pdb|3NMM|D Chain D, Human Hemoglobin A Mutant Alpha H58w Deoxy-Form
+ pdb|3ODQ|B Chain B, Structure Of A Crystal Form Of Human Methemoglobin Indicative 
+Of Fiber Formation
+ pdb|3ODQ|D Chain D, Structure Of A Crystal Form Of Human Methemoglobin Indicative 
+Of Fiber Formation
+ pdb|3QJB|B Chain B, Human Hemoglobin A Mutant Alpha H58l Carbonmonoxy-Form
+ pdb|3QJD|B Chain B, Human Hemoglobin A Mutant Alpha H58l Deoxy-Form
+ pdb|3QJD|D Chain D, Human Hemoglobin A Mutant Alpha H58l Deoxy-Form
+ pdb|3R5I|B Chain B, Crystal Structure Of Liganded Hemoglobin Complexed With 
+A Potent Antisickling Agent, Inn-312
+ pdb|3R5I|D Chain D, Crystal Structure Of Liganded Hemoglobin Complexed With 
+A Potent Antisickling Agent, Inn-312
+ pdb|3P5Q|B Chain B, Ferric R-State Human Aquomethemoglobin
+ pdb|3ONZ|B Chain B, Human Tetrameric Hemoglobin: Proximal Nitrite Ligand 
+At Beta
+ pdb|3OO4|B Chain B, R-State Human Hemoglobin: Nitriheme Modified At Alpha
+ pdb|3OO5|B Chain B, R-State Human Hemoglobin: Nitriheme Modified
+ pdb|3SZK|B Chain B, Crystal Structure Of Human Methaemoglobin Complexed 
+With The First Neat Domain Of Isdh From Staphylococcus Aureus
+ pdb|3SZK|E Chain E, Crystal Structure Of Human Methaemoglobin Complexed 
+With The First Neat Domain Of Isdh From Staphylococcus Aureus
+ pdb|2DXM|D Chain D, Neutron Structure Analysis Of Deoxy Human Hemoglobin
+ pdb|4FC3|B Chain B, Crystal Structure Of Human Methaemoglobin Complexed 
+With The Second Neat Domain Of Isdh From Staphylococcus Aureus
+ pdb|4L7Y|B Chain B, Deoxygenated Hb In Complex With The Allosteric Effectors, 
+Irl2500 And 2,3-dpg
+ pdb|4L7Y|D Chain D, Deoxygenated Hb In Complex With The Allosteric Effectors, 
+Irl2500 And 2,3-dpg
+ pdb|2M6Z|B Chain B, Refined Solution Structure Of Human Adult Hemoglobin 
+In The Carbonmonoxy Form
+ pdb|2M6Z|D Chain D, Refined Solution Structure Of Human Adult Hemoglobin 
+In The Carbonmonoxy Form
+ pdb|4MQH|B Chain B, Structure Of Aquomet Hemoglobin Evans Alphav62mbetawt
+ pdb|4MQC|B Chain B, Carbonmonoxy Structure Of Hemoglobin Evans Alphav62mbetawt
+ pdb|4IJ2|B Chain B, Human Methemoglobin In Complex With The Second And Third 
+Neat Domains Of Isdh From Staphylococcus Aureus
+ pdb|4IJ2|D Chain D, Human Methemoglobin In Complex With The Second And Third 
+Neat Domains Of Isdh From Staphylococcus Aureus
+ pdb|4N7N|B Chain B, Capturing The Haemoglobin Allosteric Transition In A 
+Single Crystal Form; Crystal Structure Of Full-liganded Human 
+Haemoglobin With Phosphate At 2.75 A Resolution.
+ pdb|4N7N|D Chain D, Capturing The Haemoglobin Allosteric Transition In A 
+Single Crystal Form; Crystal Structure Of Full-liganded Human 
+Haemoglobin With Phosphate At 2.75 A Resolution.
+ pdb|4N7N|F Chain F, Capturing The Haemoglobin Allosteric Transition In A 
+Single Crystal Form; Crystal Structure Of Full-liganded Human 
+Haemoglobin With Phosphate At 2.75 A Resolution.
+ pdb|4N7N|H Chain H, Capturing The Haemoglobin Allosteric Transition In A 
+Single Crystal Form; Crystal Structure Of Full-liganded Human 
+Haemoglobin With Phosphate At 2.75 A Resolution.
+ pdb|4N7N|J Chain J, Capturing The Haemoglobin Allosteric Transition In A 
+Single Crystal Form; Crystal Structure Of Full-liganded Human 
+Haemoglobin With Phosphate At 2.75 A Resolution.
+ pdb|4N7N|L Chain L, Capturing The Haemoglobin Allosteric Transition In A 
+Single Crystal Form; Crystal Structure Of Full-liganded Human 
+Haemoglobin With Phosphate At 2.75 A Resolution.
+ pdb|4N7O|B Chain B, Capturing The Haemoglobin Allosteric Transition In A 
+Single Crystal Form; Crystal Structure Of Half-liganded Human 
+Haemoglobin With Phosphate At 2.5 A Resolution.
+ pdb|4N7O|D Chain D, Capturing The Haemoglobin Allosteric Transition In A 
+Single Crystal Form; Crystal Structure Of Half-liganded Human 
+Haemoglobin With Phosphate At 2.5 A Resolution.
+ pdb|4N7O|F Chain F, Capturing The Haemoglobin Allosteric Transition In A 
+Single Crystal Form; Crystal Structure Of Half-liganded Human 
+Haemoglobin With Phosphate At 2.5 A Resolution.
+ pdb|4N7O|H Chain H, Capturing The Haemoglobin Allosteric Transition In A 
+Single Crystal Form; Crystal Structure Of Half-liganded Human 
+Haemoglobin With Phosphate At 2.5 A Resolution.
+ pdb|4N7O|J Chain J, Capturing The Haemoglobin Allosteric Transition In A 
+Single Crystal Form; Crystal Structure Of Half-liganded Human 
+Haemoglobin With Phosphate At 2.5 A Resolution.
+ pdb|4N7O|L Chain L, Capturing The Haemoglobin Allosteric Transition In A 
+Single Crystal Form; Crystal Structure Of Half-liganded Human 
+Haemoglobin With Phosphate At 2.5 A Resolution.
+ pdb|4N7P|B Chain B, Capturing The Haemoglobin Allosteric Transition In A 
+Single Crystal Form; Crystal Structure Of Half-liganded Human 
+Haemoglobin Without Phosphate At 2.8 A Resolution.
+ pdb|4N7P|D Chain D, Capturing The Haemoglobin Allosteric Transition In A 
+Single Crystal Form; Crystal Structure Of Half-liganded Human 
+Haemoglobin Without Phosphate At 2.8 A Resolution.
+ pdb|4N7P|F Chain F, Capturing The Haemoglobin Allosteric Transition In A 
+Single Crystal Form; Crystal Structure Of Half-liganded Human 
+Haemoglobin Without Phosphate At 2.8 A Resolution.
+ pdb|4N7P|H Chain H, Capturing The Haemoglobin Allosteric Transition In A 
+Single Crystal Form; Crystal Structure Of Half-liganded Human 
+Haemoglobin Without Phosphate At 2.8 A Resolution.
+ pdb|4N7P|J Chain J, Capturing The Haemoglobin Allosteric Transition In A 
+Single Crystal Form; Crystal Structure Of Half-liganded Human 
+Haemoglobin Without Phosphate At 2.8 A Resolution.
+ pdb|4N7P|L Chain L, Capturing The Haemoglobin Allosteric Transition In A 
+Single Crystal Form; Crystal Structure Of Half-liganded Human 
+Haemoglobin Without Phosphate At 2.8 A Resolution.
+ pdb|4M4A|B Chain B, Human Hemoglobin Nitromethane Modified
+ pdb|4M4B|B Chain B, Human Hemoglobin Nitroethane Modified
+ pdb|4NI0|B Chain B, Quaternary R3 Co-liganded Hemoglobin Structure In Complex 
+With A Thiol Containing Compound
+ pdb|4NI1|B Chain B, Qauternary R Co-liganded Hemoglobin Structure In Complex 
+With A Thiol Containing Compound
+ pdb|4N8T|B Chain B, Human Hemoglobin Nitric Oxide Adduct
+ pdb|3WHM|B Chain B, Structure Of Hemoglobin Complex With 18-crown-6
+ pdb|3WHM|F Chain F, Structure Of Hemoglobin Complex With 18-crown-6
+ pdb|4WJG|B Chain B, Structure Of T. Brucei Haptoglobin-hemoglobin Receptor 
+Binding To Human Haptoglobin-hemoglobin
+ pdb|4WJG|G Chain G, Structure Of T. Brucei Haptoglobin-hemoglobin Receptor 
+Binding To Human Haptoglobin-hemoglobin
+ pdb|4WJG|L Chain L, Structure Of T. Brucei Haptoglobin-hemoglobin Receptor 
+Binding To Human Haptoglobin-hemoglobin
+ pdb|4WJG|Q Chain Q, Structure Of T. Brucei Haptoglobin-hemoglobin Receptor 
+Binding To Human Haptoglobin-hemoglobin
+ pdb|4WJG|V Chain V, Structure Of T. Brucei Haptoglobin-hemoglobin Receptor 
+Binding To Human Haptoglobin-hemoglobin
+ pdb|4WJG|1 Chain 1, Structure Of T. Brucei Haptoglobin-hemoglobin Receptor 
+Binding To Human Haptoglobin-hemoglobin
+ pdb|4X0I|B Chain B, Trypanosoma Brucei Haptoglobin-haemoglobin Receptor 
+In Complex With Human Haptoglobin-haemoglobin
+ pdb|4X0L|B Chain B, Human Haptoglobin-haemoglobin Complex
+ pdb|4ROL|B Chain B, Deoxyhemoglobin In Complex With Imidazolylacryloyl Derivatives
+ pdb|4ROL|D Chain D, Deoxyhemoglobin In Complex With Imidazolylacryloyl Derivatives
+ pdb|4ROM|B Chain B, Deoxyhemoglobin In Complex With Imidazolylacryloyl Derivatives
+ pdb|4ROM|D Chain D, Deoxyhemoglobin In Complex With Imidazolylacryloyl Derivatives
+ pdb|4XS0|B Chain B, Human Methemoglobin In Complex With The Second And Third 
+Neat Domains Of Isdh(f365y/a369f/y642a) From Staphylococcus 
+Aureus
+ pdb|5EE4|D Chain D, The Crystal Structure Of Hpua From Kingella Denitrificans 
+In Complex With Human Haemoglobin
+ pdb|5EE4|F Chain F, The Crystal Structure Of Hpua From Kingella Denitrificans 
+In Complex With Human Haemoglobin
+ prf||0907233B hemoglobin beta
+Length=146
+
+ Score = 298 bits (763),  Expect = 6e-100, Method: Compositional matrix adjust.
+ Identities = 146/146 (100%), Positives = 146/146 (100%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>gb|AKI70609.1| HBB, partial [synthetic construct]
+Length=147
+
+ Score = 298 bits (763),  Expect = 6e-100, Method: Compositional matrix adjust.
+ Identities = 146/147 (99%), Positives = 146/147 (99%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTP AVMGNPK
+Sbjct  1    MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPGAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPPVQAAYQKVVAGVANALAHKYH  147
+
+
+>gb|AKI70608.1| HBB, partial [synthetic construct]
+Length=147
+
+ Score = 298 bits (762),  Expect = 1e-99, Method: Compositional matrix adjust.
+ Identities = 146/147 (99%), Positives = 146/147 (99%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEKSAVTALWGKVNVDEVGGEALGRL VVYPWTQRFFESFGDLSTPDAVMGNPK
+Sbjct  1    MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLPVVYPWTQRFFESFGDLSTPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPPVQAAYQKVVAGVANALAHKYH  147
+
+
+>gb|AAF00489.1|AF181989_1 hemoglobin beta subunit variant [Homo sapiens]
+ gb|AAA88054.1| beta-globin [Homo sapiens]
+Length=147
+
+ Score = 298 bits (762),  Expect = 1e-99, Method: Compositional matrix adjust.
+ Identities = 146/147 (99%), Positives = 146/147 (99%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK
+Sbjct  1    MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCV AHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVPAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPPVQAAYQKVVAGVANALAHKYH  147
+
+
+>pdb|4MQI|B Chain B, Structure Of Aquomet Hemoglobin Bristol-alesha Alphawtbetav67m
+ pdb|4MQG|B Chain B, Structure Of Carbonmonoxy Adult Hemoglobin Bristol-alesha 
+Alphawtbetav67m
+Length=146
+
+ Score = 297 bits (761),  Expect = 1e-99, Method: Compositional matrix adjust.
+ Identities = 145/146 (99%), Positives = 146/146 (100%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKK+LGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKMLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1DXU|B Chain B, High-Resolution X-Ray Study Of Deoxy Recombinant Human 
+Hemoglobins Synthesized From Beta-Globins Having Mutated 
+Amino Termini
+ pdb|1DXU|D Chain D, High-Resolution X-Ray Study Of Deoxy Recombinant Human 
+Hemoglobins Synthesized From Beta-Globins Having Mutated 
+Amino Termini
+ pdb|1GLI|B Chain B, Deoxyhemoglobin T38w (alpha Chains), V1g (alpha And 
+Beta Chains)
+ pdb|1GLI|D Chain D, Deoxyhemoglobin T38w (alpha Chains), V1g (alpha And 
+Beta Chains)
+ pdb|1A0U|B Chain B, Hemoglobin (Val Beta1 Met) Mutant
+ pdb|1A0U|D Chain D, Hemoglobin (Val Beta1 Met) Mutant
+ pdb|1A0Z|B Chain B, Hemoglobin (Val Beta1 Met) Mutant
+ pdb|1A0Z|D Chain D, Hemoglobin (Val Beta1 Met) Mutant
+ pdb|1J7S|B Chain B, Crystal Structure Of Deoxy Hbalphayq, A Mutant Of Hba
+ pdb|1J7S|D Chain D, Crystal Structure Of Deoxy Hbalphayq, A Mutant Of Hba
+ pdb|1O1L|B Chain B, Deoxy Hemoglobin (A-Gly-C:v1m,L29w,H58q; B,D:v1m)
+ pdb|1O1L|D Chain D, Deoxy Hemoglobin (A-Gly-C:v1m,L29w,H58q; B,D:v1m)
+ pdb|1O1N|B Chain B, Deoxy Hemoglobin (A-Glyglygly-C:v1m,L29w; B,D:v1m)
+ pdb|1O1N|D Chain D, Deoxy Hemoglobin (A-Glyglygly-C:v1m,L29w; B,D:v1m)
+ pdb|1Y0T|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betav1m Deoxy Low-Salt (1 Test Set)
+ pdb|1Y0T|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betav1m Deoxy Low-Salt (1 Test Set)
+ pdb|1Y0W|B Chain B, T-To-Thigh Quaternary Transitions In Human Hemoglobin: 
+Betav1m Deoxy Low-Salt (10 Test Sets)
+ pdb|1Y0W|D Chain D, T-To-Thigh Quaternary Transitions In Human Hemoglobin: 
+Betav1m Deoxy Low-Salt (10 Test Sets)
+Length=146
+
+ Score = 297 bits (761),  Expect = 1e-99, Method: Compositional matrix adjust.
+ Identities = 145/146 (99%), Positives = 146/146 (100%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>gb|AAL68978.1|AF083883_1 mutant beta-globin [Homo sapiens]
+Length=147
+
+ Score = 297 bits (761),  Expect = 1e-99, Method: Compositional matrix adjust.
+ Identities = 146/147 (99%), Positives = 146/147 (99%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK
+Sbjct  1    MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLV VLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVRVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPPVQAAYQKVVAGVANALAHKYH  147
+
+
+>pdb|2YRS|B Chain B, Human Hemoglobin D Los Angeles: Crystal Structure
+ pdb|2YRS|D Chain D, Human Hemoglobin D Los Angeles: Crystal Structure
+ pdb|2YRS|K Chain K, Human Hemoglobin D Los Angeles: Crystal Structure
+ pdb|2YRS|O Chain O, Human Hemoglobin D Los Angeles: Crystal Structure
+Length=146
+
+ Score = 297 bits (760),  Expect = 2e-99, Method: Compositional matrix adjust.
+ Identities = 145/146 (99%), Positives = 146/146 (100%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            +FTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  QFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1HDB|B Chain B, Analysis Of The Crystal Structure, Molecular Modeling 
+And Infrared Spectroscopy Of The Distal Beta-Heme Pocket Valine67(E11)-Threonine 
+Mutation Of Hemoglobin
+ pdb|1HDB|D Chain D, Analysis Of The Crystal Structure, Molecular Modeling 
+And Infrared Spectroscopy Of The Distal Beta-Heme Pocket Valine67(E11)-Threonine 
+Mutation Of Hemoglobin
+Length=146
+
+ Score = 297 bits (760),  Expect = 2e-99, Method: Compositional matrix adjust.
+ Identities = 145/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKK LGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKTLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|5E29|B Chain B, Crystal Structure Of Deoxygenated Hemoglobin In Complex 
+With An Allosteric Effector And Nitric Oxide
+ pdb|5E29|D Chain D, Crystal Structure Of Deoxygenated Hemoglobin In Complex 
+With An Allosteric Effector And Nitric Oxide
+Length=145
+
+ Score = 296 bits (759),  Expect = 2e-99, Method: Compositional matrix adjust.
+ Identities = 145/145 (100%), Positives = 145/145 (100%), Gaps = 0/145 (0%)
+
+Query  19   HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVK  78
+            HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVK
+Sbjct  1    HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVK  60
+
+Query  79   AHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKE  138
+            AHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKE
+Sbjct  61   AHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKE  120
+
+Query  139  FTPPVQAAYQKVVAGVANALAHKYH  163
+            FTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  FTPPVQAAYQKVVAGVANALAHKYH  145
+
+
+>pdb|1NQP|B Chain B, Crystal Structure Of Human Hemoglobin E At 1.73 A Resolution
+ pdb|1NQP|D Chain D, Crystal Structure Of Human Hemoglobin E At 1.73 A Resolution
+ pdb|1YVQ|B Chain B, The Low Salt (Peg) Crystal Structure Of Co Hemoglobin 
+E (Betae26k) Approaching Physiological Ph (Ph 7.5)
+ pdb|1YVQ|D Chain D, The Low Salt (Peg) Crystal Structure Of Co Hemoglobin 
+E (Betae26k) Approaching Physiological Ph (Ph 7.5)
+ pdb|1YVT|B Chain B, The High Salt (Phosphate) Crystal Structure Of Co Hemoglobin 
+E (Glu26lys) At Physiological Ph (Ph 7.35)
+ pdb|3DUT|B Chain B, The High Salt (Phosphate) Crystal Structure Of Deoxy 
+Hemoglobin E (Glu26lys) At Physiological Ph (Ph 7.35)
+ pdb|3DUT|D Chain D, The High Salt (Phosphate) Crystal Structure Of Deoxy 
+Hemoglobin E (Glu26lys) At Physiological Ph (Ph 7.35)
+Length=146
+
+ Score = 296 bits (759),  Expect = 2e-99, Method: Compositional matrix adjust.
+ Identities = 145/146 (99%), Positives = 146/146 (100%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTPEEKSAVTALWGKVNVDEVGG+ALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    VHLTPEEKSAVTALWGKVNVDEVGGKALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1K1K|B Chain B, Structure Of Mutant Human Carbonmonoxyhemoglobin C (beta 
+E6k) At 2.0 Angstrom Resolution In Phosphate Buffer.
+ pdb|1M9P|B Chain B, Crystalline Human Carbonmonoxy Hemoglobin C Exhibits 
+The R2 Quaternary State At Neutral Ph In The Presence Of Polyethylene 
+Glycol: The 2.1 Angstrom Resolution Crystal Structure
+ pdb|1M9P|D Chain D, Crystalline Human Carbonmonoxy Hemoglobin C Exhibits 
+The R2 Quaternary State At Neutral Ph In The Presence Of Polyethylene 
+Glycol: The 2.1 Angstrom Resolution Crystal Structure
+ pdb|1YFF|B Chain B, Structure Of Human Carbonmonoxyhemoglobin C (beta E6k): 
+Two Quaternary States (r2 And R3) In One Crystal
+ pdb|1YFF|D Chain D, Structure Of Human Carbonmonoxyhemoglobin C (beta E6k): 
+Two Quaternary States (r2 And R3) In One Crystal
+ pdb|1YFF|F Chain F, Structure Of Human Carbonmonoxyhemoglobin C (beta E6k): 
+Two Quaternary States (r2 And R3) In One Crystal
+ pdb|1YFF|H Chain H, Structure Of Human Carbonmonoxyhemoglobin C (beta E6k): 
+Two Quaternary States (r2 And R3) In One Crystal
+ pdb|3S65|B Chain B, Structures And Oxygen Affinities Of Crystalline Human 
+Hemoglobin C (Beta6 Lys) In The R2 Quaternary Structures
+ pdb|3S65|D Chain D, Structures And Oxygen Affinities Of Crystalline Human 
+Hemoglobin C (Beta6 Lys) In The R2 Quaternary Structures
+ pdb|3S66|B Chain B, Structures And Oxygen Affinities Of Crystalline Human 
+Hemoglobin C (Beta6 Lys) In The R Quaternary Structures
+Length=146
+
+ Score = 296 bits (759),  Expect = 2e-99, Method: Compositional matrix adjust.
+ Identities = 145/146 (99%), Positives = 146/146 (100%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTP+EKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    VHLTPKEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|3KMF|C Chain C, Room Temperature Time-Of-Flight Neutron Diffraction 
+Study Of Deoxy Human Normal Adult Hemoglobin
+ pdb|3KMF|G Chain G, Room Temperature Time-Of-Flight Neutron Diffraction 
+Study Of Deoxy Human Normal Adult Hemoglobin
+Length=146
+
+ Score = 296 bits (759),  Expect = 2e-99, Method: Compositional matrix adjust.
+ Identities = 145/145 (100%), Positives = 145/145 (100%), Gaps = 0/145 (0%)
+
+Query  19   HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVK  78
+            HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVK
+Sbjct  2    HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVK  61
+
+Query  79   AHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKE  138
+            AHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKE
+Sbjct  62   AHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKE  121
+
+Query  139  FTPPVQAAYQKVVAGVANALAHKYH  163
+            FTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  122  FTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1DXV|B Chain B, High-resolution X-ray Study Of Deoxy Recombinant Human 
+Hemoglobins Synthesized From Beta-globins Having Mutated 
+Amino Termini
+ pdb|1DXV|D Chain D, High-resolution X-ray Study Of Deoxy Recombinant Human 
+Hemoglobins Synthesized From Beta-globins Having Mutated 
+Amino Termini
+Length=146
+
+ Score = 296 bits (759),  Expect = 2e-99, Method: Compositional matrix adjust.
+ Identities = 145/145 (100%), Positives = 145/145 (100%), Gaps = 0/145 (0%)
+
+Query  19   HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVK  78
+            HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVK
+Sbjct  2    HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVK  61
+
+Query  79   AHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKE  138
+            AHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKE
+Sbjct  62   AHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKE  121
+
+Query  139  FTPPVQAAYQKVVAGVANALAHKYH  163
+            FTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  122  FTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>gb|AAN11320.1| hemoglobin beta chain variant Hb S-Wake [Homo sapiens]
+Length=147
+
+ Score = 296 bits (759),  Expect = 3e-99, Method: Compositional matrix adjust.
+ Identities = 145/147 (99%), Positives = 146/147 (99%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTP EKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK
+Sbjct  1    MVHLTPVEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTPPVQAAYQKVVAGVA+ALAHKYH
+Sbjct  121  KEFTPPVQAAYQKVVAGVASALAHKYH  147
+
+
+>pdb|1O1O|B Chain B, Deoxy Hemoglobin (A,C:v1m,V62l; B,D:v1m,V67l)
+ pdb|1O1O|D Chain D, Deoxy Hemoglobin (A,C:v1m,V62l; B,D:v1m,V67l)
+Length=146
+
+ Score = 296 bits (758),  Expect = 4e-99, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 146/146 (100%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKK+LGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKLLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>emb|CAA23759.1| unnamed protein product [Homo sapiens]
+ gb|AAA35966.1| sickle beta-hemoglobin [Homo sapiens]
+Length=147
+
+ Score = 296 bits (758),  Expect = 4e-99, Method: Compositional matrix adjust.
+ Identities = 145/147 (99%), Positives = 145/147 (99%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTP EKSAVTA WGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK
+Sbjct  1    MVHLTPVEKSAVTAXWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPPVQAAYQKVVAGVANALAHKYH  147
+
+
+>ref|XP_002822173.1| PREDICTED: hemoglobin subunit beta isoform X2 [Pongo abelii]
+Length=147
+
+ Score = 296 bits (758),  Expect = 4e-99, Method: Compositional matrix adjust.
+ Identities = 145/147 (99%), Positives = 145/147 (99%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK
+Sbjct  1    MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFAKLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPQVQAAYQKVVAGVANALAHKYH  147
+
+
+>pdb|1Y85|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Deshis146beta Deoxy Low-Salt
+ pdb|1Y85|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Deshis146beta Deoxy Low-Salt
+Length=145
+
+ Score = 296 bits (757),  Expect = 5e-99, Method: Compositional matrix adjust.
+ Identities = 145/145 (100%), Positives = 145/145 (100%), Gaps = 0/145 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKY  162
+            EFTPPVQAAYQKVVAGVANALAHKY
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKY  145
+
+
+>pdb|1YE2|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betay35f Oxy (2mm Ihp, 20% Peg) (1 Test Set)
+ pdb|1YE2|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betay35f Oxy (2mm Ihp, 20% Peg) (1 Test Set)
+ pdb|1Y35|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betay35f Deoxy Low-Salt (1 Test Set)
+ pdb|1Y35|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betay35f Deoxy Low-Salt (1 Test Set)
+Length=146
+
+ Score = 296 bits (757),  Expect = 5e-99, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 146/146 (100%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVV+PWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVFPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1YE0|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betav33a Oxy (2mm Ihp, 20% Peg) (1 Test Set)
+ pdb|1YE0|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betav33a Oxy (2mm Ihp, 20% Peg) (1 Test Set)
+ pdb|1Y22|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betav33a Deoxy Low-Salt (1 Test Set)
+ pdb|1Y22|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betav33a Deoxy Low-Salt (1 Test Set)
+Length=146
+
+ Score = 296 bits (757),  Expect = 5e-99, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLL VYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLAVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1HBS|B Chain B, Refined Crystal Structure Of Deoxyhemoglobin S. I. Restrained 
+Least-Squares Refinement At 3.0-Angstroms Resolution
+ pdb|1HBS|D Chain D, Refined Crystal Structure Of Deoxyhemoglobin S. I. Restrained 
+Least-Squares Refinement At 3.0-Angstroms Resolution
+ pdb|1HBS|F Chain F, Refined Crystal Structure Of Deoxyhemoglobin S. I. Restrained 
+Least-Squares Refinement At 3.0-Angstroms Resolution
+ pdb|1HBS|H Chain H, Refined Crystal Structure Of Deoxyhemoglobin S. I. Restrained 
+Least-Squares Refinement At 3.0-Angstroms Resolution
+ pdb|2HBS|B Chain B, The High Resolution Crystal Structure Of Deoxyhemoglobin 
+S
+ pdb|2HBS|D Chain D, The High Resolution Crystal Structure Of Deoxyhemoglobin 
+S
+ pdb|2HBS|F Chain F, The High Resolution Crystal Structure Of Deoxyhemoglobin 
+S
+ pdb|2HBS|H Chain H, The High Resolution Crystal Structure Of Deoxyhemoglobin 
+S
+ pdb|1NEJ|B Chain B, Crystalline Human Carbonmonoxy Hemoglobin S (liganded 
+Sickle Cell Hemoglobin) Exhibits The R2 Quaternary State At 
+Neutral Ph In The Presence Of Polyethylene Glycol: The 2.1 
+Angstrom Resolution Crystal Structure
+ pdb|1NEJ|D Chain D, Crystalline Human Carbonmonoxy Hemoglobin S (liganded 
+Sickle Cell Hemoglobin) Exhibits The R2 Quaternary State At 
+Neutral Ph In The Presence Of Polyethylene Glycol: The 2.1 
+Angstrom Resolution Crystal Structure
+ pdb|3W4U|B Chain B, Human Zeta-2 Beta-2-s Hemoglobin
+ pdb|3W4U|D Chain D, Human Zeta-2 Beta-2-s Hemoglobin
+ pdb|3W4U|F Chain F, Human Zeta-2 Beta-2-s Hemoglobin
+Length=146
+
+ Score = 295 bits (756),  Expect = 8e-99, Method: Compositional matrix adjust.
+ Identities = 145/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTP EKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    VHLTPVEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1BUW|B Chain B, Crystal Structure Of S-Nitroso-Nitrosyl Human Hemoglobin 
+A
+ pdb|1BUW|D Chain D, Crystal Structure Of S-Nitroso-Nitrosyl Human Hemoglobin 
+A
+ pdb|1RQ4|B Chain B, Crystallographic Analysis Of The Interaction Of Nitric 
+Oxide With Quaternary-T Human Hemoglobin, Hemoglobin Exposed 
+To No Under Aerobic Conditions
+ pdb|1RQ4|D Chain D, Crystallographic Analysis Of The Interaction Of Nitric 
+Oxide With Quaternary-T Human Hemoglobin, Hemoglobin Exposed 
+To No Under Aerobic Conditions
+ pdb|3WCP|B Chain B, Deoxyhemoglobin Sh-drug Complex
+ pdb|3WCP|D Chain D, Deoxyhemoglobin Sh-drug Complex
+Length=146
+
+ Score = 295 bits (756),  Expect = 8e-99, Method: Compositional matrix adjust.
+ Identities = 145/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELH DKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHXDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1ABY|B Chain B, Cyanomet Rhb1.1 (Recombinant Hemoglobin)
+ pdb|1ABY|D Chain D, Cyanomet Rhb1.1 (Recombinant Hemoglobin)
+ pdb|1ABW|B Chain B, Deoxy Rhb1.1 (Recombinant Hemoglobin)
+ pdb|1ABW|D Chain D, Deoxy Rhb1.1 (Recombinant Hemoglobin)
+ pdb|1C7B|B Chain B, Deoxy Rhb1.0 (Recombinant Hemoglobin)
+ pdb|1C7B|D Chain D, Deoxy Rhb1.0 (Recombinant Hemoglobin)
+ pdb|1C7C|B Chain B, Deoxy Rhb1.1 (Recombinant Hemoglobin)
+ pdb|1C7C|D Chain D, Deoxy Rhb1.1 (Recombinant Hemoglobin)
+ pdb|1C7D|B Chain B, Deoxy Rhb1.2 (Recombinant Hemoglobin)
+ pdb|1C7D|D Chain D, Deoxy Rhb1.2 (Recombinant Hemoglobin)
+Length=146
+
+ Score = 295 bits (756),  Expect = 8e-99, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLG VLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGKVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1Y5F|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betal96a Deoxy Low-Salt (1 Test Set)
+ pdb|1Y5F|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betal96a Deoxy Low-Salt (1 Test Set)
+Length=146
+
+ Score = 295 bits (756),  Expect = 8e-99, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDK HVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKAHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1YIH|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betap100a Oxy (2.2mm Ihp, 20% Peg) (1 Test Set)
+ pdb|1YIH|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betap100a Oxy (2.2mm Ihp, 20% Peg) (1 Test Set)
+ pdb|1Y7C|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betap100a Deoxy Low-Salt (1 Test Set)
+ pdb|1Y7C|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betap100a Deoxy Low-Salt (1 Test Set)
+Length=146
+
+ Score = 295 bits (755),  Expect = 1e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVD ENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDAENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1YEN|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betap36a Oxy (2mm Ihp, 20% Peg) (10 Test Sets)
+ pdb|1YEN|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betap36a Oxy (2mm Ihp, 20% Peg) (10 Test Sets)
+ pdb|1Y45|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betap36a Deoxy Low-Salt (10 Test Sets)
+ pdb|1Y45|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betap36a Deoxy Low-Salt (10 Test Sets)
+Length=146
+
+ Score = 295 bits (755),  Expect = 1e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVY WTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYAWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1GBV|B Chain B, (Alpha-Oxy, Beta-(C112g)deoxy) T-State Human Hemoglobin
+ pdb|1GBV|D Chain D, (Alpha-Oxy, Beta-(C112g)deoxy) T-State Human Hemoglobin
+Length=146
+
+ Score = 295 bits (755),  Expect = 1e-98, Method: Compositional matrix adjust.
+ Identities = 145/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLV VLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVGVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1Y7Z|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betan108a Deoxy Low-Salt (1 Test Set)
+ pdb|1Y7Z|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betan108a Deoxy Low-Salt (1 Test Set)
+Length=146
+
+ Score = 295 bits (755),  Expect = 1e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLG VLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGAVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1Y7G|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betan102a Deoxy Low-Salt (1 Test Set)
+ pdb|1Y7G|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betan102a Deoxy Low-Salt (1 Test Set)
+Length=146
+
+ Score = 295 bits (755),  Expect = 1e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE FRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPEAFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|6HBW|B Chain B, Crystal Structure Of Deoxy-human Hemoglobin Beta6 Glu->trp
+ pdb|6HBW|D Chain D, Crystal Structure Of Deoxy-human Hemoglobin Beta6 Glu->trp
+Length=146
+
+ Score = 295 bits (755),  Expect = 1e-98, Method: Compositional matrix adjust.
+ Identities = 145/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTP EKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    VHLTPWEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|3QJC|B Chain B, Human Hemoglobin A Mutant Beta H63l Carbonmonoxy-Form
+ pdb|3QJE|B Chain B, Human Hemoglobin A Mutant Beta H63l Deoxy-Form
+ pdb|3QJE|D Chain D, Human Hemoglobin A Mutant Beta H63l Deoxy-Form
+Length=146
+
+ Score = 295 bits (755),  Expect = 1e-98, Method: Compositional matrix adjust.
+ Identities = 145/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KA GKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KALGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1O1I|B Chain B, Cyanomet Hemoglobin (a-gly-c:v1m,l29f,h58q; B,d:v1m,l106w)
+ pdb|1O1J|B Chain B, Deoxy Hemoglobin (a-gly-c:v1m,l29f,h58q; B,d:v1m,l106w)
+ pdb|1O1J|D Chain D, Deoxy Hemoglobin (a-gly-c:v1m,l29f,h58q; B,d:v1m,l106w)
+Length=146
+
+ Score = 295 bits (754),  Expect = 1e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRL GNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLWGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|2HHE|B Chain B, Oxygen Affinity Modulation By The N-Termini Of The Beta 
+Chains In Human And Bovine Hemoglobin
+ pdb|2HHE|D Chain D, Oxygen Affinity Modulation By The N-Termini Of The Beta 
+Chains In Human And Bovine Hemoglobin
+Length=145
+
+ Score = 295 bits (754),  Expect = 1e-98, Method: Compositional matrix adjust.
+ Identities = 144/144 (100%), Positives = 144/144 (100%), Gaps = 0/144 (0%)
+
+Query  20   LTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKA  79
+            LTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKA
+Sbjct  2    LTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKA  61
+
+Query  80   HGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEF  139
+            HGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEF
+Sbjct  62   HGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEF  121
+
+Query  140  TPPVQAAYQKVVAGVANALAHKYH  163
+            TPPVQAAYQKVVAGVANALAHKYH
+Sbjct  122  TPPVQAAYQKVVAGVANALAHKYH  145
+
+
+>pdb|1Y4Q|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaf42a Deoxy Low-Salt (1 Test Set)
+ pdb|1Y4Q|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaf42a Deoxy Low-Salt (1 Test Set)
+Length=146
+
+ Score = 295 bits (754),  Expect = 1e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRF ESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFAESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1Y4R|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaf45a Deoxy Low-Salt (1 Test Set)
+ pdb|1Y4R|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaf45a Deoxy Low-Salt (1 Test Set)
+Length=146
+
+ Score = 295 bits (754),  Expect = 1e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFES GDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESAGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1Y5K|B Chain B, T-to-t(high) Quaternary Transitions In Human Hemoglobin: 
+Betad99a Deoxy Low-salt (10 Test Sets)
+ pdb|1Y5K|D Chain D, T-to-t(high) Quaternary Transitions In Human Hemoglobin: 
+Betad99a Deoxy Low-salt (10 Test Sets)
+Length=146
+
+ Score = 295 bits (754),  Expect = 1e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHV PENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVAPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1YGF|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betah97a Oxy (2mm Ihp, 20% Peg) (1 Test Set)
+ pdb|1YGF|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betah97a Oxy (2mm Ihp, 20% Peg) (1 Test Set)
+ pdb|1Y5J|B Chain B, T-to-t(high) Quaternary Transitions In Human Hemoglobin: 
+Betah97a Deoxy Low-salt (1 Test Set)
+ pdb|1Y5J|D Chain D, T-to-t(high) Quaternary Transitions In Human Hemoglobin: 
+Betah97a Deoxy Low-salt (1 Test Set)
+Length=146
+
+ Score = 295 bits (754),  Expect = 1e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKL VDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLAVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>gb|AAK29639.1|AF349114_1 beta globin chain variant [Homo sapiens]
+Length=147
+
+ Score = 295 bits (754),  Expect = 1e-98, Method: Compositional matrix adjust.
+ Identities = 145/147 (99%), Positives = 145/147 (99%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK
+Sbjct  1    MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCV AHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVPAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFT PVQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTQPVQAAYQKVVAGVANALAHKYH  147
+
+
+>pdb|1Y4V|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betac93a Deoxy Low-Salt (1 Test Set)
+ pdb|1Y4V|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betac93a Deoxy Low-Salt (1 Test Set)
+Length=146
+
+ Score = 295 bits (754),  Expect = 1e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELH DKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHADKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|3NL7|B Chain B, Human Hemoglobin A Mutant Beta H63w Carbonmonoxy-Form
+Length=146
+
+ Score = 295 bits (754),  Expect = 1e-98, Method: Compositional matrix adjust.
+ Identities = 145/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KA GKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAWGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1CMY|B Chain B, The Mutation Beta99 Asp-Tyr Stabilizes Y-A New, Composite 
+Quaternary State Of Human Hemoglobin
+ pdb|1CMY|D Chain D, The Mutation Beta99 Asp-Tyr Stabilizes Y-A New, Composite 
+Quaternary State Of Human Hemoglobin
+Length=146
+
+ Score = 295 bits (754),  Expect = 1e-98, Method: Compositional matrix adjust.
+ Identities = 145/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHV PENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVYPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1YE1|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betay35a Oxy (2mm Ihp, 20% Peg) (1 Test Set)
+ pdb|1YE1|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betay35a Oxy (2mm Ihp, 20% Peg) (1 Test Set)
+ pdb|1Y31|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betay35a Deoxy Low-Salt (1 Test Set)
+ pdb|1Y31|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betay35a Deoxy Low-Salt (1 Test Set)
+Length=146
+
+ Score = 295 bits (754),  Expect = 1e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVV PWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVAPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1A00|B Chain B, Hemoglobin (Val Beta1 Met, Trp Beta37 Tyr) Mutant
+ pdb|1A00|D Chain D, Hemoglobin (Val Beta1 Met, Trp Beta37 Tyr) Mutant
+ pdb|1YEQ|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaw37y Oxy (10 Test Sets)
+ pdb|1YEQ|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaw37y Oxy (10 Test Sets)
+ pdb|1Y46|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaw37y Deoxy Low-Salt (10 Test Sets)
+ pdb|1Y46|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaw37y Deoxy Low-Salt (10 Test Sets)
+Length=146
+
+ Score = 295 bits (754),  Expect = 1e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 146/146 (100%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYP+TQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPYTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1O1K|B Chain B, Deoxy Hemoglobin (A,C:v1m; B,D:v1m,V67w)
+ pdb|1O1K|D Chain D, Deoxy Hemoglobin (A,C:v1m; B,D:v1m,V67w)
+ pdb|1O1M|B Chain B, Deoxy Hemoglobin (a-glyglygly-c:v1m,l29f,h58q B,d:v1m,v67w)
+ pdb|1O1M|D Chain D, Deoxy Hemoglobin (a-glyglygly-c:v1m,l29f,h58q B,d:v1m,v67w)
+Length=146
+
+ Score = 294 bits (753),  Expect = 2e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKK LGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKWLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>gb|ACD39349.1| hemoglobin beta chain variant [Homo sapiens]
+Length=146
+
+ Score = 294 bits (753),  Expect = 2e-98, Method: Compositional matrix adjust.
+ Identities = 146/147 (99%), Positives = 146/147 (99%), Gaps = 1/147 (1%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEKSAVTALWGKVNVDEVG EALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK
+Sbjct  1    MVHLTPEEKSAVTALWGKVNVDEVG-EALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  59
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  60   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  119
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  120  KEFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1HBA|B Chain B, High-Resolution X-Ray Study Of Deoxyhemoglobin Rothschild 
+37beta Trp-> Arg: A Mutation That Creates An Intersubunit 
+Chloride-Binding Site
+ pdb|1HBA|D Chain D, High-Resolution X-Ray Study Of Deoxyhemoglobin Rothschild 
+37beta Trp-> Arg: A Mutation That Creates An Intersubunit 
+Chloride-Binding Site
+Length=146
+
+ Score = 294 bits (753),  Expect = 2e-98, Method: Compositional matrix adjust.
+ Identities = 145/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYP TQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPRTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1Y2Z|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betav34g Deoxy Low-Salt (1 Test Set)
+ pdb|1Y2Z|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betav34g Deoxy Low-Salt (1 Test Set)
+Length=146
+
+ Score = 294 bits (753),  Expect = 2e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLV YPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVGYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1Y7D|B Chain B, T-to-t(high) Quaternary Transitions In Human Hemoglobin: 
+Betap100g Deoxy Low-salt (1 Test Set)
+ pdb|1Y7D|D Chain D, T-to-t(high) Quaternary Transitions In Human Hemoglobin: 
+Betap100g Deoxy Low-salt (1 Test Set)
+Length=146
+
+ Score = 294 bits (752),  Expect = 2e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVD ENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDGENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1Y83|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betay145g Deoxy Low-Salt (1 Test Set)
+ pdb|1Y83|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betay145g Deoxy Low-Salt (1 Test Set)
+Length=146
+
+ Score = 293 bits (751),  Expect = 4e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHK H
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKGH  146
+
+
+>sp|P02025.1|HBB_HYLLA RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+Length=146
+
+ Score = 293 bits (751),  Expect = 4e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 144/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFAQLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPQVQAAYQKVVAGVANALAHKYH  146
+
+
+>prf||0404170B hemoglobin beta
+Length=146
+
+ Score = 293 bits (751),  Expect = 5e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 144/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFAKLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPQVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1GBU|B Chain B, Deoxy (Beta-(C93a,C112g)) Human Hemoglobin
+ pdb|1GBU|D Chain D, Deoxy (Beta-(C93a,C112g)) Human Hemoglobin
+Length=146
+
+ Score = 293 bits (750),  Expect = 5e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 144/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELH DKLHVDPENFRLLGNVLV VLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHADKLHVDPENFRLLGNVLVGVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1A01|B Chain B, Hemoglobin (Val Beta1 Met, Trp Beta37 Ala) Mutant
+ pdb|1A01|D Chain D, Hemoglobin (Val Beta1 Met, Trp Beta37 Ala) Mutant
+ pdb|1YEO|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaw37a Oxy (10 Test Sets)
+ pdb|1YEO|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaw37a Oxy (10 Test Sets)
+ pdb|1YIE|B Chain B, T-to-thigh Quaternary Transitions In Human Hemoglobin: 
+Betaw37a Oxy (2.2mm Ihp, 13% Peg) (1 Test Set)
+ pdb|1YIE|D Chain D, T-to-thigh Quaternary Transitions In Human Hemoglobin: 
+Betaw37a Oxy (2.2mm Ihp, 13% Peg) (1 Test Set)
+ pdb|1Y4F|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaw37a Deoxy Low-Salt (10 Test Sets)
+ pdb|1Y4F|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaw37a Deoxy Low-Salt (10 Test Sets)
+Length=146
+
+ Score = 293 bits (750),  Expect = 6e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYP TQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPATQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1QI8|B Chain B, Deoxygenated Structure Of A Distal Pocket Hemoglobin 
+Mutant
+ pdb|1QI8|D Chain D, Deoxygenated Structure Of A Distal Pocket Hemoglobin 
+Mutant
+ pdb|1J7W|B Chain B, Crystal Structure Of Deoxy Hbbetayq, A Site Directed 
+Mutant Of Hba
+ pdb|1J7W|D Chain D, Crystal Structure Of Deoxy Hbbetayq, A Site Directed 
+Mutant Of Hba
+ pdb|1J7Y|B Chain B, Crystal Structure Of Partially Ligated Mutant Of Hba
+ pdb|1J7Y|D Chain D, Crystal Structure Of Partially Ligated Mutant Of Hba
+ pdb|2W72|B Chain B, Deoxygenated Structure Of A Distal Site Hemoglobin Mutant 
+Plus Xe
+ pdb|2W72|D Chain D, Deoxygenated Structure Of A Distal Site Hemoglobin Mutant 
+Plus Xe
+Length=146
+
+ Score = 293 bits (750),  Expect = 6e-98, Method: Compositional matrix adjust.
+ Identities = 143/146 (98%), Positives = 144/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEA GRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEAYGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KA GKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAQGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1YEU|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaw37g Oxy (10 Test Sets)
+ pdb|1YEU|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaw37g Oxy (10 Test Sets)
+ pdb|1Y4G|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaw37g Deoxy Low-Salt (10 Test Sets)
+ pdb|1Y4G|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaw37g Deoxy Low-Salt (10 Test Sets)
+Length=146
+
+ Score = 293 bits (749),  Expect = 7e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYP TQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPGTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1RQA|B Chain B, Crystallographic Analysis Of The Interaction Of Nitric 
+Oxide With Quaternary-T Human Hemoglobin. Beta W73e Hemoglobin 
+Exposed To No Under Anaerobic Conditions
+ pdb|1RQA|D Chain D, Crystallographic Analysis Of The Interaction Of Nitric 
+Oxide With Quaternary-T Human Hemoglobin. Beta W73e Hemoglobin 
+Exposed To No Under Anaerobic Conditions
+ pdb|1YEV|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaw37e Oxy (10 Test Sets)
+ pdb|1YEV|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaw37e Oxy (10 Test Sets)
+ pdb|1YGD|B Chain B, T-to-t(high) Quaternary Transitions In Human Hemoglobin: 
+Betaw37e Alpha Zinc Beta Oxy (10 Test Sets)
+ pdb|1YGD|D Chain D, T-to-t(high) Quaternary Transitions In Human Hemoglobin: 
+Betaw37e Alpha Zinc Beta Oxy (10 Test Sets)
+ pdb|1Y4P|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaw37e Deoxy Low-Salt (10 Test Sets)
+ pdb|1Y4P|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaw37e Deoxy Low-Salt (10 Test Sets)
+Length=146
+
+ Score = 293 bits (749),  Expect = 7e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYP TQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPETQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>gb|AAR96398.1| hemoglobin beta [Homo sapiens]
+Length=147
+
+ Score = 293 bits (749),  Expect = 9e-98, Method: Compositional matrix adjust.
+ Identities = 144/147 (98%), Positives = 144/147 (98%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQR FESFGDL TPDAVMGNPK
+Sbjct  1    MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRLFESFGDLFTPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDG AHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGPAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPPVQAAYQKVVAGVANALAHKYH  147
+
+
+>pdb|1YG5|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaw37h Oxy (2mm Ihp, 20% Peg) (10 Test Sets)
+ pdb|1YG5|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaw37h Oxy (2mm Ihp, 20% Peg) (10 Test Sets)
+ pdb|1Y4B|B Chain B, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaw37h Deoxy Low-Salt (10 Test Sets)
+ pdb|1Y4B|D Chain D, T-To-T(High) Quaternary Transitions In Human Hemoglobin: 
+Betaw37h Deoxy Low-Salt (10 Test Sets)
+Length=146
+
+ Score = 293 bits (749),  Expect = 9e-98, Method: Compositional matrix adjust.
+ Identities = 144/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYP TQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPHTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>pdb|1O1P|B Chain B, Deoxy Hemoglobin (A-Gly-C:v1m; B,D:v1m,C93a,N108k)
+ pdb|1O1P|D Chain D, Deoxy Hemoglobin (A-Gly-C:v1m; B,D:v1m,C93a,N108k)
+Length=146
+
+ Score = 292 bits (748),  Expect = 1e-97, Method: Compositional matrix adjust.
+ Identities = 143/146 (98%), Positives = 144/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            +HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELH DKLHVDPENFRLLG VLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHADKLHVDPENFRLLGKVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+
+
+>sp|P02032.1|HBB_SEMEN RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+Length=146
+
+ Score = 291 bits (745),  Expect = 4e-97, Method: Compositional matrix adjust.
+ Identities = 142/146 (97%), Positives = 144/146 (99%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTPEEK+AVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLS+PDAVMGNPKV
+Sbjct  1    VHLTPEEKAAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFAQLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPQVQAAYQKVVAGVANALAHKYH  146
+
+
+>ref|XP_008018083.1| PREDICTED: hemoglobin subunit beta [Chlorocebus sabaeus]
+Length=147
+
+ Score = 291 bits (744),  Expect = 4e-97, Method: Compositional matrix adjust.
+ Identities = 141/147 (96%), Positives = 144/147 (98%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEK+AVT LWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLS+PDAVMGNPK
+Sbjct  1    MVHLTPEEKTAVTTLWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFA LSELHCDKLHVDPENF+LLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFAQLSELHCDKLHVDPENFKLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPQVQAAYQKVVAGVANALAHKYH  147
+
+
+>ref|XP_011818991.1| PREDICTED: hemoglobin subunit beta [Colobus angolensis palliatus]
+ sp|P19885.2|HBB_COLPO RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+Length=147
+
+ Score = 291 bits (744),  Expect = 5e-97, Method: Compositional matrix adjust.
+ Identities = 141/147 (96%), Positives = 145/147 (99%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTP+EK+AVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLS+PDAVMGNPK
+Sbjct  1    MVHLTPDEKAAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFA LSELHCDKLHVDPENF+LLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFAQLSELHCDKLHVDPENFKLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPQVQAAYQKVVAGVANALAHKYH  147
+
+
+>ref|XP_010361646.1| PREDICTED: hemoglobin subunit beta [Rhinopithecus roxellana]
+Length=147
+
+ Score = 290 bits (741),  Expect = 1e-96, Method: Compositional matrix adjust.
+ Identities = 141/147 (96%), Positives = 144/147 (98%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTP+EK+AVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLS+PDAVMGN K
+Sbjct  1    MVHLTPDEKAAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMGNAK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFAQLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPQVQAAYQKVVAGVANALAHKYH  147
+
+
+>sp|Q6WN22.3|HBB_ATEPA RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+ gb|AAQ18225.1| beta globin [Ateles paniscus]
+Length=147
+
+ Score = 289 bits (740),  Expect = 2e-96, Method: Compositional matrix adjust.
+ Identities = 141/147 (96%), Positives = 143/147 (97%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLT EEKSAVT LWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLS+PDAVMGNPK
+Sbjct  1    MVHLTGEEKSAVTTLWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFAQLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTP +QAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPQLQAAYQKVVAGVANALAHKYH  147
+
+
+>sp|P68232.2|HBB_ATEGE RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+ sp|P68234.2|HBB_ATEBE RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+Length=147
+
+ Score = 288 bits (738),  Expect = 3e-96, Method: Compositional matrix adjust.
+ Identities = 141/147 (96%), Positives = 143/147 (97%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLT EEK+AVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVM NPK
+Sbjct  1    MVHLTGEEKAAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMSNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFAQLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTP +QAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPQLQAAYQKVVAGVANALAHKYH  147
+
+
+>sp|Q6WN27.3|HBB_PITPI RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+ gb|AAQ18220.1| beta globin [Pithecia pithecia]
+Length=147
+
+ Score = 288 bits (738),  Expect = 4e-96, Method: Compositional matrix adjust.
+ Identities = 141/147 (96%), Positives = 143/147 (97%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLT EEK+AVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLS+PDAVM NPK
+Sbjct  1    MVHLTGEEKAAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMNNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFAQLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPQVQAAYQKVVAGVANALAHKYH  147
+
+
+>sp|Q6WN25.3|HBB_LAGLA RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+ gb|AAQ18222.1| beta globin [Lagothrix lagotricha]
+Length=147
+
+ Score = 288 bits (738),  Expect = 4e-96, Method: Compositional matrix adjust.
+ Identities = 141/147 (96%), Positives = 143/147 (97%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLT EEK+AVTALWGKVNVDEVGGEALGRLLVVYPWTQRFF+SFGDLSTPDAVM NPK
+Sbjct  1    MVHLTGEEKAAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFDSFGDLSTPDAVMSNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFAQLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPQVQAAYQKVVAGVANALAHKYH  147
+
+
+>ref|NP_001270296.1| hemoglobin subunit beta [Macaca fascicularis]
+ ref|NP_001292888.1| hemoglobin subunit beta [Cercocebus atys]
+ ref|XP_011717123.1| PREDICTED: hemoglobin subunit beta [Macaca nemestrina]
+ sp|P68222.2|HBB_MACFU RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+ sp|P68223.2|HBB_MACFA RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+ sp|P68224.2|HBB_MACSP RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+ sp|P68225.2|HBB_MACNE RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+ dbj|BAE88663.1| unnamed protein product [Macaca fascicularis]
+ gb|ACS94047.1| beta hemoglobin [Cercocebus atys]
+ gb|EHH23170.1| Hemoglobin beta chain [Macaca mulatta]
+ gb|EHH56523.1| Hemoglobin beta chain [Macaca fascicularis]
+Length=147
+
+ Score = 288 bits (738),  Expect = 4e-96, Method: Compositional matrix adjust.
+ Identities = 140/147 (95%), Positives = 143/147 (97%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEK+AVT LWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLS+PDAVMGNPK
+Sbjct  1    MVHLTPEEKNAVTTLWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGL HLDNLKGTFA LSELHCDKLHVDPENF+LLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLNHLDNLKGTFAQLSELHCDKLHVDPENFKLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPQVQAAYQKVVAGVANALAHKYH  147
+
+
+>sp|P02028.1|HBB_CHLAE RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+ prf||731485B hemoglobin beta
+Length=146
+
+ Score = 288 bits (737),  Expect = 5e-96, Method: Compositional matrix adjust.
+ Identities = 140/146 (96%), Positives = 143/146 (98%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTPEEK+AVT LWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLS+PDAVMGNPKV
+Sbjct  1    VHLTPEEKTAVTTLWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFA LSELHCDKLHVDPENF+LLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFAQLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPQVQAAYQKVVAGVANALAHKYH  146
+
+
+>ref|XP_002754937.1| PREDICTED: hemoglobin subunit beta [Callithrix jacchus]
+ sp|Q6WN28.3|HBB_CALJA RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+ gb|AAQ18219.1| beta globin [Callithrix jacchus]
+ gb|ABZ80298.1| beta globin (predicted) [Callithrix jacchus]
+Length=147
+
+ Score = 288 bits (736),  Expect = 7e-96, Method: Compositional matrix adjust.
+ Identities = 142/147 (97%), Positives = 142/147 (97%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLT EEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVM NPK
+Sbjct  1    MVHLTGEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMNNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGL HLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLTHLDNLKGTFAHLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPVVQAAYQKVVAGVANALAHKYH  147
+
+
+>ref|NP_001157900.1| hemoglobin subunit beta [Macaca mulatta]
+ ref|XP_011830557.1| PREDICTED: hemoglobin subunit beta isoform X2 [Mandrillus leucophaeus]
+ ref|XP_011830558.1| PREDICTED: hemoglobin subunit beta isoform X2 [Mandrillus leucophaeus]
+ gb|ACS94046.1| beta hemoglobin [Macaca mulatta]
+Length=147
+
+ Score = 287 bits (735),  Expect = 1e-95, Method: Compositional matrix adjust.
+ Identities = 139/147 (95%), Positives = 143/147 (97%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEK+AVT LWGKVNVDEVGGEALGRLLVVYPWTQRFF+SFGDLS+PDAVMGNPK
+Sbjct  1    MVHLTPEEKTAVTTLWGKVNVDEVGGEALGRLLVVYPWTQRFFDSFGDLSSPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGL HLDNLKGTFA LSELHCDKLHVDPENF+LLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLNHLDNLKGTFAQLSELHCDKLHVDPENFKLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPQVQAAYQKVVAGVANALAHKYH  147
+
+
+>sp|P67821.3|HBB_SAPAP RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+ gb|AAQ18223.1| beta globin [Sapajus apella]
+Length=147
+
+ Score = 287 bits (735),  Expect = 1e-95, Method: Compositional matrix adjust.
+ Identities = 140/147 (95%), Positives = 141/147 (96%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLT EEKSAVT LWGKVNVDEVGGEALGRLLVVYPWTQRFF+SFGDLSTPDAVM NPK
+Sbjct  1    MVHLTAEEKSAVTTLWGKVNVDEVGGEALGRLLVVYPWTQRFFDSFGDLSTPDAVMNNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGL HLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLTHLDNLKGTFAQLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPQVQAAYQKVVAGVANALAHKYH  147
+
+
+>ref|XP_012312232.1| PREDICTED: hemoglobin subunit beta [Aotus nancymaae]
+Length=147
+
+ Score = 287 bits (735),  Expect = 1e-95, Method: Compositional matrix adjust.
+ Identities = 140/147 (95%), Positives = 143/147 (97%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLT EEK+AVTALWGKVNVDEVGGEALGRLLVVYPWTQRFF+SFGDLS+PDAVM NPK
+Sbjct  1    MVHLTGEEKAAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFDSFGDLSSPDAVMNNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFAQLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPQVQAAYQKVVAGVANALAHKYH  147
+
+
+>gb|ACA53486.1| beta globin (predicted) [Callicebus moloch]
+Length=147
+
+ Score = 287 bits (735),  Expect = 1e-95, Method: Compositional matrix adjust.
+ Identities = 140/147 (95%), Positives = 143/147 (97%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLT +EK+AVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLS+PDAVM NPK
+Sbjct  1    MVHLTGDEKAAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMNNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFAQLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPQVQAAYQKVVAGVANALAHKYH  147
+
+
+>sp|Q6WN21.3|HBB_CALGO RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+ gb|AAQ18226.1| beta globin [Callimico goeldii]
+Length=147
+
+ Score = 287 bits (734),  Expect = 2e-95, Method: Compositional matrix adjust.
+ Identities = 140/147 (95%), Positives = 141/147 (96%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLT EEKSAVT LWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLS+PDAVM NPK
+Sbjct  1    MVHLTGEEKSAVTTLWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMNNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGL HLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLTHLDNLKGTFAQLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPTVQAAYQKVVAGVANALAHKYH  147
+
+
+>ref|XP_004050595.1| PREDICTED: hemoglobin subunit beta [Gorilla gorilla gorilla]
+Length=143
+
+ Score = 286 bits (731),  Expect = 3e-95, Method: Compositional matrix adjust.
+ Identities = 139/140 (99%), Positives = 140/140 (100%), Gaps = 0/140 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK
+Sbjct  1    MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENF+LLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFKLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVAN  156
+            KEFTPPVQAAYQKVVAGVAN
+Sbjct  121  KEFTPPVQAAYQKVVAGVAN  140
+
+
+>pir||C24693 hemoglobin beta chain - stump-tailed macaque
+Length=146
+
+ Score = 286 bits (731),  Expect = 4e-95, Method: Compositional matrix adjust.
+ Identities = 139/146 (95%), Positives = 142/146 (97%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTPEEK+AVT LWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLS+PDAVMGNPKV
+Sbjct  1    VHLTPEEKNAVTTLWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGL HLDNLKGTFA LSELHCDKLHVDPENF+LLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLNHLDNLKGTFAQLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPQVQAAYQKVVAGVANALAHKYH  146
+
+
+>sp|P02033.1|HBB_PILBA RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+Length=146
+
+ Score = 286 bits (731),  Expect = 4e-95, Method: Compositional matrix adjust.
+ Identities = 139/146 (95%), Positives = 143/146 (98%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTP+EK+AVTALWGKVNVDEVGGEALGRLLVVYPWTQRFF+SFGDLST DAVMGNPKV
+Sbjct  1    VHLTPDEKNAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFDSFGDLSTADAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFA LSELHCDKLHVDPENF+LLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFAQLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPQVQAAYQKVVAGVANALAHKYH  146
+
+
+>ref|NP_001162318.1| hemoglobin subunit beta [Papio anubis]
+ sp|Q9TSP1.2|HBB_PAPAN RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+ gb|ABX52138.1| hemoglobin, beta (predicted) [Papio anubis]
+Length=147
+
+ Score = 285 bits (730),  Expect = 6e-95, Method: Compositional matrix adjust.
+ Identities = 139/147 (95%), Positives = 143/147 (97%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEK+AVTALWGKVNVDEVGGEALGRLLVVYPWTQRFF+SFGDLS+P AVMGNPK
+Sbjct  1    MVHLTPEEKNAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFDSFGDLSSPAAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGL HLDNLKGTFA LSELHCDKLHVDPENF+LLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLNHLDNLKGTFAQLSELHCDKLHVDPENFKLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPQVQAAYQKVVAGVANALAHKYH  147
+
+
+>prf||610523A hemoglobin beta
+Length=146
+
+ Score = 285 bits (730),  Expect = 6e-95, Method: Compositional matrix adjust.
+ Identities = 137/146 (94%), Positives = 146/146 (100%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTPEEKSAVTALWGKV+VDEVGGEALGRLLVVYPWT+RFFESFGDLSTPDAVMG+PKV
+Sbjct  1    VHLTPEEKSAVTALWGKVDVDEVGGEALGRLLVVYPWTERFFESFGDLSTPDAVMGDPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLD+LKGTFATLSELHCDKLHVDPE+FRLLG+VLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDDLKGTFATLSELHCDKLHVDPEDFRLLGDVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTPPV+AAY+KVVAGVA+ALAHKYH
+Sbjct  121  EFTPPVEAAYEKVVAGVADALAHKYH  146
+
+
+>sp|P18985.1|HBB_CALAR RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+ prf||1004272D hemoglobin beta
+Length=146
+
+ Score = 285 bits (730),  Expect = 7e-95, Method: Compositional matrix adjust.
+ Identities = 141/146 (97%), Positives = 141/146 (97%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLT EEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVM NPKV
+Sbjct  1    VHLTGEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMNNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGL HLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLTHLDNLKGTFAHLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPVVQAAYQKVVAGVANALAHKYH  146
+
+
+>sp|P02036.2|HBB_SAISC RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+ gb|AAQ18224.1| beta globin [Saimiri sciureus]
+Length=147
+
+ Score = 285 bits (729),  Expect = 8e-95, Method: Compositional matrix adjust.
+ Identities = 139/147 (95%), Positives = 143/147 (97%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLT +EK+AVTALWGKVNV++VGGEALGRLLVVYPWTQRFFESFGDLSTPDAVM NPK
+Sbjct  1    MVHLTGDEKAAVTALWGKVNVEDVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMNNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLVCVLAHHFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFAQLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPQVQAAYQKVVAGVANALAHKYH  147
+
+
+>sp|Q6WN29.3|HBB_ALOBE RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+ gb|AAQ18218.1| beta globin [Alouatta belzebul]
+Length=147
+
+ Score = 285 bits (728),  Expect = 1e-94, Method: Compositional matrix adjust.
+ Identities = 140/147 (95%), Positives = 142/147 (97%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLT +EK+AVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVM NPK
+Sbjct  1    MVHLTGDEKAAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMHNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLVCVLA HFG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFAQLSELHCDKLHVDPENFRLLGNVLVCVLAQHFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPQVQAAYQKVVAGVANALAHKYH  147
+
+
+>sp|P02039.1|HBB_SAGFU RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+Length=146
+
+ Score = 285 bits (728),  Expect = 1e-94, Method: Compositional matrix adjust.
+ Identities = 139/146 (95%), Positives = 142/146 (97%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLT EEKSAVT LWGKVNV+EVGGEALGRLLVVYPWTQRFFESFGDLS+PDAVMGNPKV
+Sbjct  1    VHLTGEEKSAVTTLWGKVNVEEVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFA LSELHC+KLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFAQLSELHCNKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPQVQAAYQKVVAGVANALAHKYH  146
+
+
+>sp|P08259.1|HBB_MANSP RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+ prf||1406207B hemoglobin beta
+Length=146
+
+ Score = 285 bits (728),  Expect = 1e-94, Method: Compositional matrix adjust.
+ Identities = 138/146 (95%), Positives = 142/146 (97%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTPEEK+AVT LWGKVNVDEVGGEALGRLLVVYPWTQRFF+SFGDLS+PDAVMGNPKV
+Sbjct  1    VHLTPEEKTAVTTLWGKVNVDEVGGEALGRLLVVYPWTQRFFDSFGDLSSPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGL HLDNLKGTFA LSELHCDKLHVDPENF+LLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLNHLDNLKGTFAQLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPQVQAAYQKVVAGVANALAHKYH  146
+
+
+>sp|P02035.1|HBB_AOTTR RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+Length=146
+
+ Score = 285 bits (728),  Expect = 1e-94, Method: Compositional matrix adjust.
+ Identities = 139/146 (95%), Positives = 142/146 (97%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLT EEK+AVTALWGKVNVDEVGGEALGRLLVVYPWTQRFF+SFGDLS+PDAVM NPKV
+Sbjct  1    VHLTGEEKAAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFDSFGDLSSPDAVMNNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGLAHLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFAQLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPQVQAAYQKVVAGVANALAHKYH  146
+
+
+>sp|P02026.1|HBB_MACMU RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; 
+AltName: Full=Hemoglobin beta chain
+ prf||681081B hemoglobin beta
+Length=146
+
+ Score = 285 bits (728),  Expect = 1e-94, Method: Compositional matrix adjust.
+ Identities = 138/146 (95%), Positives = 142/146 (97%), Gaps = 0/146 (0%)
+
+Query  18   VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  77
+            VHLTPEEK+AVT LWGKVNVDEVGGEALGRLL+VYPWTQRFFESFGDLS+PDAVMGNPKV
+Sbjct  1    VHLTPEEKNAVTTLWGKVNVDEVGGEALGRLLLVYPWTQRFFESFGDLSSPDAVMGNPKV  60
+
+Query  78   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  137
+            KAHGKKVLGAFSDGL HLDNLKGTFA LSELHCDKLHVDPENF+LLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLGAFSDGLNHLDNLKGTFAQLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGK  120
+
+Query  138  EFTPPVQAAYQKVVAGVANALAHKYH  163
+            EFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPQVQAAYQKVVAGVANALAHKYH  146
+
+
+>ref|XP_011818992.1| PREDICTED: hemoglobin subunit delta isoform X1 [Colobus angolensis 
+palliatus]
+Length=147
+
+ Score = 285 bits (728),  Expect = 1e-94, Method: Compositional matrix adjust.
+ Identities = 138/147 (94%), Positives = 143/147 (97%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEK+AV+ALWGKVNVD VGGEALGRLLVVYPWTQRFFESFGDLS+P AVMGNPK
+Sbjct  1    MVHLTPEEKTAVSALWGKVNVDAVGGEALGRLLVVYPWTQRFFESFGDLSSPAAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTF+ LSELHCDKLHVDPENFRLLGNVLVCVLAH+FG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFSQLSELHCDKLHVDPENFRLLGNVLVCVLAHNFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPQVQAAYQKVVAGVANALAHKYH  147
+
+
+>ref|XP_002822175.1| PREDICTED: hemoglobin subunit delta isoform X1 [Pongo abelii]
+ ref|XP_003254870.1| PREDICTED: hemoglobin subunit delta isoform X1 [Nomascus leucogenys]
+ ref|XP_001162045.2| PREDICTED: hemoglobin subunit delta [Pan troglodytes]
+ ref|XP_003819079.1| PREDICTED: hemoglobin subunit delta [Pan paniscus]
+ sp|P61772.2|HBD_PANTR RecName: Full=Hemoglobin subunit delta; AltName: Full=Delta-globin; 
+AltName: Full=Hemoglobin delta chain
+ sp|P61773.2|HBD_GORGO RecName: Full=Hemoglobin subunit delta; AltName: Full=Delta-globin; 
+AltName: Full=Hemoglobin delta chain
+ sp|P61774.2|HBD_HYLLA RecName: Full=Hemoglobin subunit delta; AltName: Full=Delta-globin; 
+AltName: Full=Hemoglobin delta chain
+ sp|P61775.2|HBD_PONPY RecName: Full=Hemoglobin subunit delta; AltName: Full=Delta-globin; 
+AltName: Full=Hemoglobin delta chain
+ gb|AAA36932.1| delta-globin [Pongo pygmaeus]
+ gb|AAL72101.1| delta-globin [Pan troglodytes]
+Length=147
+
+ Score = 285 bits (728),  Expect = 1e-94, Method: Compositional matrix adjust.
+ Identities = 138/147 (94%), Positives = 142/147 (97%), Gaps = 0/147 (0%)
+
+Query  17   MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK  76
+            MVHLTPEEK+AV ALWGKVNVD VGGEALGRLLVVYPWTQRFFESFGDLS+PDAVMGNPK
+Sbjct  1    MVHLTPEEKTAVNALWGKVNVDAVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMGNPK  60
+
+Query  77   VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG  136
+            VKAHGKKVLGAFSDGLAHLDNLKGTF+ LSELHCDKLHVDPENFRLLGNVLVCVLA +FG
+Sbjct  61   VKAHGKKVLGAFSDGLAHLDNLKGTFSQLSELHCDKLHVDPENFRLLGNVLVCVLARNFG  120
+
+Query  137  KEFTPPVQAAYQKVVAGVANALAHKYH  163
+            KEFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  KEFTPQVQAAYQKVVAGVANALAHKYH  147
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Nov 21, 2015  1:45 AM
+  Number of letters in database: -1,960,579,646
+  Number of sequences in database:  77,306,371
+
+Lambda      K        H
+   0.336    0.148    0.497 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 77306371
+Number of Hits to DB: 568828774
+Number of extensions: 22717196
+Number of successful extensions: 72610
+Number of sequences better than 100: 88
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 72567
+Number of HSP's successfully gapped: 91
+Length of query: 208
+Length of database: 28104191422
+Length adjustment: 144
+Effective length of query: 64
+Effective length of database: 16972073998
+Effective search space: 1086212735872
+Effective search space used: 1086212735872
+T: 11
+A: 40
+X1: 15 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 39 (19.6 bits)
+S2: 75 (33.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+
+
+
+
+

@@ -1,0 +1,239 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.3.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 5ARTE9MF015
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           77,306,371 sequences; 28,104,191,422 total letters
+Query= 
+Length=208
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+gb|AAF71139.1|AF116721_119  PRO2987 [Homo sapiens]                 140     7e-38
+gb|AAF71137.1|AF116721_117  PRO2898 [Homo sapiens]                 123     1e-31
+gb|ELR47477.1|  hypothetical protein M91_21167 [Bos mutus]         116     3e-29
+gb|AEB31349.1|  hemoglobin beta chain [Epinephelus bruneus]        86.3    2e-17
+gb|ELR47474.1|  hypothetical protein M91_21163 [Bos mutus]         82.0    2e-16
+gb|KFV40898.1|  hypothetical protein N328_03957 [Gavia stellata]   38.9    0.64 
+ref|XP_008224418.1|  PREDICTED: uncharacterized protein LOC103...  39.3    2.2  
+ref|XP_007222716.1|  hypothetical protein PRUPE_ppa009912mg [P...  38.5    3.2  
+gb|KFP36195.1|  hypothetical protein N324_06351, partial [Chla...  36.2    5.8  
+
+ALIGNMENTS
+>gb|AAF71139.1|AF116721_119 PRO2987 [Homo sapiens]
+Length=160
+
+ Score = 140 bits (352),  Expect = 7e-38, Method: Compositional matrix adjust.
+ Identities = 70/132 (53%), Positives = 96/132 (73%), Gaps = 1/132 (1%)
+
+Query  78   QHTDQHVAQEPEVLRIHVQLVTVQLTQCGKGALEVVQVSQAITKGTEHFLAMSLHLRVAH  137
+            Q+  QH++QE EVLRIH+QLVTVQ TQ GKGALE++QV   I++G++H LAM L   VAH
+Sbjct  4    QNGHQHISQELEVLRIHMQLVTVQFTQLGKGALEIIQVLCGISQGSQHLLAMCLDFGVAH  63
+
+Query  138  NSIRSGQIPKGLKEPLGPRVDHQQPAQGLTTNFIHVHLAPQGSNGRLLLRSQMHHGVCLR  197
+            +    GQ+ K +KEPLGP VD+Q+P+QG +++  H+HLAPQ  +  L+L  +M HGV  R
+Sbjct  64   DGRGRGQVAKAVKEPLGPWVDNQEPSQGFSSSIFHIHLAPQACDSSLVLLCEMTHGVWTR  123
+
+Query  198  -LLVNTVVSEAN  208
+             LL+ + V EA+
+Sbjct  124  SLLITSDVPEAS  135
+
+
+>gb|AAF71137.1|AF116721_117 PRO2898 [Homo sapiens]
+Length=131
+
+ Score = 123 bits (309),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 58/104 (56%), Positives = 79/104 (76%), Gaps = 0/104 (0%)
+
+Query  78   QHTDQHVAQEPEVLRIHVQLVTVQLTQCGKGALEVVQVSQAITKGTEHFLAMSLHLRVAH  137
+            Q+  QH++QE EVLRIH+QLVTVQ TQ GKGALE++QV   I++G++H LAM L   VAH
+Sbjct  4    QNGHQHISQELEVLRIHMQLVTVQFTQLGKGALEIIQVLYGISQGSQHLLAMCLDFGVAH  63
+
+Query  138  NSIRSGQIPKGLKEPLGPRVDHQQPAQGLTTNFIHVHLAPQGSN  181
+            +    GQ+ K +KEPLGP VD+Q+P+QG +++  H+HLAPQ  +
+Sbjct  64   DGRGRGQVAKAVKEPLGPWVDNQEPSQGFSSSIFHIHLAPQAPD  107
+
+
+>gb|ELR47477.1| hypothetical protein M91_21167, partial [Bos mutus]
+Length=127
+
+ Score = 116 bits (291),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 65/126 (52%), Positives = 82/126 (65%), Gaps = 6/126 (5%)
+
+Query  89   EVLRIHVQLVTVQLTQCGKGALEVVQVSQAITKGTEHFLAMSLHLRVAHNSIRSGQIPKG  148
+            EVLRIH+QLVTVQLTQ  +G  E+VQ+  + ++G +H LAM L L V+H     GQ+ K 
+Sbjct  1    EVLRIHMQLVTVQLTQLSEGTFEIVQILNSFSEGGQHLLAMGLDLGVSHYGRGRGQVAKA  60
+
+Query  149  LKEPLGPRVDHQQ-----PAQGLTTNFIHVHLAPQGSNGRLLLRSQMHHGVCL-RLLVNT  202
+            +KEPLGP VD Q+     PAQ L ++  HV  APQ S+  LLL S+MHH V L  L V T
+Sbjct  61   IKEPLGPGVDDQEPIHFLPAQSLASSLFHVDFAPQASDSSLLLGSKMHHDVKLWSLQVIT  120
+
+Query  203  VVSEAN  208
+              SEA+
+Sbjct  121  EASEAS  126
+
+
+>gb|AEB31349.1| hemoglobin beta chain, partial [Epinephelus bruneus]
+Length=164
+
+ Score = 86.3 bits (212),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 53/156 (34%), Positives = 78/156 (50%), Gaps = 0/156 (0%)
+
+Query  43   ASLVILVGQGISHTSHHFLIGSLHWWGEFFAKVMGQHTDQHVAQEPEVLRIHVQLVTVQL  102
+            +SLV+L  QG+ H  H  L   L +  E FA    +H  Q V +EPE++ IHVQ + VQ 
+Sbjct  6    SSLVVLPSQGVHHHCHELLDSGLDFSSEVFAHPSSEHNGQAVGEEPEIVGIHVQFLGVQH  65
+
+Query  103  TQCGKGALEVVQVSQAITKGTEHFLAMSLHLRVAHNSIRSGQIPKGLKEPLGPRVDHQQP  162
+             Q G G L VV V  +  +  E   ++  +LR++H+     ++ K  + PL P +D Q P
+Sbjct  66   AQLGIGRLNVVHVLHSPVQTVEDSYSVFCNLRISHDCGCVVEVSKVAEIPLTPGIDDQTP  125
+
+Query  163  AQGLTTNFIHVHLAPQGSNGRLLLRSQMHHGVCLRL  198
+            A+    N + VHL  +  +G  L      H V  R 
+Sbjct  126  AKSCRANGLIVHLTEEVFDGGTLFFCPFDHFVSSRF  161
+
+
+>gb|ELR47474.1| hypothetical protein M91_21163, partial [Bos mutus]
+Length=111
+
+ Score = 82.0 bits (201),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 48/108 (44%), Positives = 64/108 (59%), Gaps = 6/108 (6%)
+
+Query  107  KGALEVVQVSQAITKGTEHFLAMSLHLRVAHNSIRSGQIPKGLKEPLGPRVDHQQ-----  161
+            KG  EVVQ+  + +KG +H LA+ L L V+H      Q+ K +KE LGP VD Q+     
+Sbjct  3    KGTFEVVQILHSFSKGGQHLLAVGLDLGVSHYGRGRRQVAKAVKESLGPGVDDQEPSHFL  62
+
+Query  162  PAQGLTTNFIHVHLAPQGSNGRLLLRSQMHHGV-CLRLLVNTVVSEAN  208
+            PAQ L ++  H+H APQ S+  LLL S+MHH V    L V T  S+A+
+Sbjct  63   PAQSLASSLFHIHFAPQVSDSSLLLASKMHHDVKSWSLQVITEASKAS  110
+
+
+>gb|KFV40898.1| hypothetical protein N328_03957, partial [Gavia stellata]
+Length=98
+
+ Score = 38.9 bits (89),  Expect = 0.64, Method: Compositional matrix adjust.
+ Identities = 28/91 (31%), Positives = 45/91 (49%), Gaps = 3/91 (3%)
+
+Query  45   LVILVGQGISHTSHHFLIGSLHWWGEFFAKVMGQHTDQHVA--QEPEVLRIHVQLVTVQL  102
+            L +L+ Q    T    +  S+++WGE    + G H  Q     Q  EV  +H + V++QL
+Sbjct  9    LSVLLSQNRGDTGQELVPRSMNFWGEV-TGIAGSHGAQDTVGKQLLEVHWVHPEDVSMQL  67
+
+Query  103  TQCGKGALEVVQVSQAITKGTEHFLAMSLHL  133
+            T+ G+ A  V+ V  ++  GT    AM+  L
+Sbjct  68   TEFGQSASNVINVLHSLPDGTHDLGAMNTKL  98
+
+
+>ref|XP_008224418.1| PREDICTED: uncharacterized protein LOC103324158 [Prunus mume]
+Length=408
+
+ Score = 39.3 bits (90),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 26/93 (28%), Positives = 45/93 (48%), Gaps = 7/93 (8%)
+
+Query  40   SKKASLVILVGQGISHTSHHFLIGSLHWWGEFFAKVMGQHTDQHVAQEPEVLRIHVQLVT  99
+             K++  VI+  +G+SH S+H  I S H   E +  + G    Q++ +  EV    V+  T
+Sbjct  11   DKESECVIVYSEGLSHDSNHERIPSDHAISESYEHINGDREPQNLEESIEVKEYEVKECT  70
+
+Query  100  VQLTQCGKGALEVVQVSQAITKGTEHFLAMSLH  132
+             +       +++V Q+S  I K  E   A+ L+
+Sbjct  71   TE------NSVDVSQMSH-IEKSNEDQNAVGLN  96
+
+
+>ref|XP_007222716.1| hypothetical protein PRUPE_ppa009912mg [Prunus persica]
+ gb|EMJ23915.1| hypothetical protein PRUPE_ppa009912mg [Prunus persica]
+Length=272
+
+ Score = 38.5 bits (88),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 24/94 (26%), Positives = 48/94 (51%), Gaps = 9/94 (10%)
+
+Query  40   SKKASLVILVGQGISHTSHHFLIGSLHWWGEFFAKVMGQHTDQHVAQEPEVLRIHVQLVT  99
+             K++  VI+  +G+SH S+H  I S H   E +  + G        +EP+ L   +++  
+Sbjct  11   DKESECVIVYSEGLSHDSNHERIPSDHAISESYEHINGD-------REPQNLEESIEVKE  63
+
+Query  100  VQLTQC-GKGALEVVQVSQAITKGTEHFLAMSLH  132
+             ++ +C  + +++V Q+S  + K  E   A+ L+
+Sbjct  64   YEVKECTTENSVDVSQMSH-VEKSNEDQNAVGLN  96
+
+
+>gb|KFP36195.1| hypothetical protein N324_06351, partial [Chlamydotis macqueenii]
+Length=98
+
+ Score = 36.2 bits (82),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 27/91 (30%), Positives = 43/91 (47%), Gaps = 3/91 (3%)
+
+Query  45   LVILVGQGISHTSHHFLIGSLHWWGEFFAKVMGQHTDQHVA--QEPEVLRIHVQLVTVQL  102
+            L +L+GQ   +     +  S+++WGE    + G H  Q     Q  EV  +H + V VQ 
+Sbjct  9    LSVLLGQNRGNAGQELVPCSMNFWGEVVG-IAGSHRAQDTVGKQLLEVHWVHPEDVGVQF  67
+
+Query  103  TQCGKGALEVVQVSQAITKGTEHFLAMSLHL  133
+            T+ G+ A +V+ V  +   G     AM+  L
+Sbjct  68   TEFGQRASDVINVLHSFPDGIHDLGAMTTKL  98
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Nov 21, 2015  1:45 AM
+  Number of letters in database: 28,104,191,422
+  Number of sequences in database:  77,306,371
+
+Lambda      K        H
+   0.331    0.141    0.433 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 77306371
+Number of Hits to DB: 499293150
+Number of extensions: 18944955
+Number of successful extensions: 42160
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 42159
+Number of HSP's successfully gapped: 5
+Length of query: 208
+Length of database: 28104191422
+Length adjustment: 144
+Effective length of query: 64
+Effective length of database: 16972073998
+Effective search space: 1086212735872
+Effective search space used: 1086212735872
+T: 11
+A: 40
+X1: 15 (7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 40 (20.0 bits)
+S2: 75 (33.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+
+
+
