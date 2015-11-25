@@ -18,6 +18,15 @@ public class Application {
 					}
 					break;
 				case 3:
+					if (args.length >= 3) {
+						String reg = "";
+						String out = args[2];
+						if (args.length > 3) {
+							reg = args[2];
+							out = args[3];
+						}
+						BlastParser.parseHits(args[1], reg, out);
+					}
 					break;
 				case 4:
 					break;

@@ -2,6 +2,7 @@ package bioinfo;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -14,7 +15,7 @@ public class BlastParser {
     private static final String HIT_REGEX_LEFT = ">[^>BLAST]+[\\|][^>]*";
     private static final String HIT_REGEX_RIGHT = "[^>]*";
 
-    public static List<String> parseHits(String inputFilePath, String regex)
+    public static void parseHits(String inputFilePath, String regex, String out)
             throws FileNotFoundException, IOException {
         String fileContents = new String(
                 Files.readAllBytes(Paths.get(inputFilePath)));
@@ -29,9 +30,20 @@ public class BlastParser {
             hits.add(hit);
         }
 
-        return hits;
-    }
-    public static void main(String[] args) throws IOException {
-        System.out.println(parseHits("BLASTOutput.out", ""));
+        if (hits.isEmpty()) {
+            System.out.println("No se encontraron hits.");
+            return;
+        }
+
+        System.out.println("Resultados: " + hits.size() + " hits");
+        String outputFilePath = out + ".out";
+
+        PrintWriter writer = new PrintWriter(outputFilePath, "UTF-8");
+        for (String hit : hits) {
+            writer.write(hit);
+        }
+        writer.close();
+
+        System.out.println("Resultados guradados en :" + outputFilePath);
     }
 }
